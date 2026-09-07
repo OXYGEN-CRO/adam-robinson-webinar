@@ -51,6 +51,8 @@ Full Name (title), LinkedIn, X, Youtube and Instagram (URL). Empty Table view. N
 
 ## Live IDs
 
+These IDs belong to this webinar instance. Generic skills read `strategy/notion.local.json` when present, otherwise `strategy/notion.json`. An incomplete local file means setup is unfinished; do not silently fall back to these IDs. New clients use the blank example in the separate content-engine-template repository.
+
 | Database | Data source |
 | --- | --- |
 | [Content Board](https://app.notion.com/p/4949d7057e494bfebe655cafedc9a4cd) | `collection://d4a8daee-58d9-4aad-b7d9-69076b85a6be` |

@@ -1,41 +1,42 @@
-# Adam Robinson Webinar: agent rules
+# Content engine: agent rules
 
-This is a blank content-system template for a live webinar. It borrows the structure of `personal-brand`, not the founder's identity, writing or business.
+This repository holds the context and reusable procedures for one author. The owner, audience, offer, voice and visual identity start unfilled.
 
 ## Where things live
 
-- `raw/`: exact source material, append only. Add a dated source folder and manifest for each ingest.
-- `identity/`, `audience/`, `strategy/`, `voice/`, `brand/`, `inspiration/`: linked context pages synthesized from those sources.
-- Notion: pillars, topics, subtopics, content drafts, calendar, hooks and creator references. The new workspace IDs are in `strategy/notion-schema.md`.
-- `research/`: temporary research. Durable findings belong in the context pages.
-- `.agents/skills/`: reusable procedures. Claude discovers the same files through `.claude/skills`.
+- `raw/`: exact source material, append only. Add a dated folder and manifest for each ingest.
+- `identity/`, `audience/`, `strategy/`, `voice/`, `brand/`, `inspiration/`: linked context synthesized from those sources.
+- Notion, when connected: pillars, topics, subtopics, content drafts, calendar, hooks and creator references. Read `strategy/notion-schema.md`.
+- `research/`: temporary research. File durable findings in the context pages.
+- `.agents/skills/`: reusable procedures. `.claude/skills` points to the same files.
+- `output/`: local working exports and review artifacts, ignored by Git.
 
 ## Empty means unknown
 
-Every `status: stub` page is an unfilled template. Headings and prompts are not facts about Adam. Do not invent a biography, opinion, audience, metric, offer, voice or visual identity to fill it. Do not substitute Tim's content.
+A page with `status: stub` contains prompts, not author facts. Do not invent a biography, opinion, audience, metric, offer, voice or visual identity. Use supplied material to fill it. Creator references can inform technique but do not establish the author's experiences or beliefs.
 
-Preserve raw wording, source URLs and capture dates. Distinguish human statements, source-backed facts and proposed interpretations. Mark what can be public. A creator reference is not a source for Adam's life or results.
+Distinguish human statements, source-backed facts and proposed interpretations. Record source dates and public-use boundaries. Unclear public-use status means the material stays out of public copy until resolved.
 
 ## Read, then write
 
-Start at `index.md`. Use `scripts/qmd.sh search "<terms>" -c adam-robinson-webinar` when this collection is configured, otherwise use `rg`. The wrapper selects this repo's separate index. Read the full source behind a factual claim.
+Start at `index.md`. Search with `rg` or the optional repo-scoped `scripts/qmd.sh`; read full sources behind claims. Before drafting, read the relevant identity, audience, strategy and voice pages. Check `identity/proof.md` before using a metric.
 
-Before drafting, read identity, audience, strategy and voice in that order. Check `identity/proof.md` before using a number. If the needed context is still blank, capture that context rather than filling a content board with guesses.
+Use `templates/page.md` for short context pages with frontmatter and Source Notes. Update `index.md` and append to `log.md` when filing durable context. Keep `AGENTS.md` and `CLAUDE.md` identical.
 
-Keep short linked context pages with frontmatter and Source Notes. Use `templates/page.md`. Update `index.md` and append to `log.md` when filing durable context.
+## Connections and drafts
 
-## Notion
+Local connection settings belong in ignored `workspace.local.json` and `strategy/notion.local.json`. Start from their example files. They store names, preferences and resource IDs, never credentials. Use the connected tool's authentication.
 
-Use only the Adam workspace and data sources recorded in `strategy/notion-schema.md`. Fetch before writing. Never fall back to another creator's board.
+Fetch the configured Notion parent and relevant data sources before writing. Never infer a destination from another repository, account or search result. If Notion is unavailable, return drafts in chat; save local working files only when requested. Do not create a second posts database.
 
-The structural starting point is 4 pillars, 4 topics per pillar and 4 subtopics per topic. Pillar names and topics are unfilled. Subtopics live inside topic page bodies. All databases start empty.
+The default taxonomy scaffold has 4 pillars, 4 topics per pillar and 4 subtopics per topic. It is adjustable to the author's strategy. Subtopics live in topic page bodies. Pick one pillar and one funnel job per post. Dates, cadence, time zone, numeric formatting, hooks and calls to action come from the current brief and author context.
 
-Pick 1 pillar and 1 funnel job per content piece. The Content Board has a multi-select Pillar field to match the source schema; choose 1 value. Funnel stage is a drafting decision, not a board property.
+## Visual work
 
-The body of a content card is 1 paste-ready text code block. Context and source reasoning stay here. Do not create a local posts database.
+Start at `brand/BRAND.md`. No palette, fonts, logo, signature, footer or visual kit is preapproved. If a neutral graphic is requested while the brief is empty, produce a plain unbranded draft and label that choice. Do not treat it as the author's new identity. Deliver editable source and inspect rendered output when tools permit.
 
-## Changes and publishing
+## Changes and delivery
 
-Preserve existing edits. Keep `AGENTS.md` and `CLAUDE.md` identical. Run `scripts/wiki-lint.sh` before committing. Do not commit credentials, local session state or source material that is not authorized for this repository.
+Preserve existing edits and raw sources. Run `scripts/wiki-lint.sh` and relevant skill checks before committing. Follow the user's Git instructions; this template itself does not authorize remote pushes.
 
-Drafting a post is separate from publishing it. No publishing, scheduling, paid enrichment or outbound sending is authorized by this template.
+A request for a draft does not authorize publication, scheduling or outreach. A context capture does not authorize paid collection or enrichment. Use the user's actual scope for those actions.

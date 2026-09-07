@@ -1,0 +1,46 @@
+{
+  "name": "Adam Robinson Webinar",
+  "created": "2026-09-07",
+  "workspace_id": "ade9b0d9-340a-4d11-ac3e-7c13f61bcac2",
+  "page_id": "3d4b3dd6-67a7-81dc-ac4a-ea561260a788",
+  "page_url": "https://app.notion.com/p/3d4b3dd667a781dcac4aea561260a788",
+  "databases": {
+    "content": {
+      "title": "Content Board",
+      "database_url": "https://app.notion.com/p/4949d7057e494bfebe655cafedc9a4cd",
+      "data_source_id": "d4a8daee-58d9-4aad-b7d9-69076b85a6be",
+      "views": {
+        "All pieces": "view://eeb85d02-7bca-4c91-83f2-5255e120de9f",
+        "Stages": "view://3d4b3dd6-67a7-81b1-860c-000cf2183e50",
+        "Calendar": "view://3d4b3dd6-67a7-8139-8d76-000cd8e9a49f"
+      }
+    },
+    "taxonomy": {
+      "title": "Pillars & Topics",
+      "database_url": "https://app.notion.com/p/3222516775b84661882ed07c76376b3d",
+      "data_source_id": "3b49ffe0-2277-453f-a3bd-40a7fd64406f",
+      "views": {
+        "Pillars": "view://84259e1e-342c-4279-bf40-8c935bff56c4",
+        "Topics": "view://3d4b3dd6-67a7-8140-8dbe-000c29f93cae",
+        "All": "view://3d4b3dd6-67a7-8170-b591-000cdc9359a9"
+      }
+    },
+    "hooks": {
+      "title": "Hooks",
+      "database_url": "https://app.notion.com/p/9485f6b45fd04daaa9adef9771b83492",
+      "data_source_id": "028cb465-79ab-40b3-83a8-9939f1f83cf3",
+      "views": {
+        "All hooks": "view://c0a53fbf-3200-4282-960c-e1f59c051e22",
+        "Gallery": "view://3d4b3dd6-67a7-812d-b5c5-000c0a3a214b"
+      }
+    },
+    "creators": {
+      "title": "Creator Inspo DB",
+      "database_url": "https://app.notion.com/p/8ba71388a2e54880bc92b8993b4e4509",
+      "data_source_id": "1d300128-1d89-4da9-9214-b905145047ec",
+      "views": {
+        "Table": "view://ef8bcab2-34dd-42af-b6d4-e8af53baf7e4"
+      }
+    }
+  }
+}

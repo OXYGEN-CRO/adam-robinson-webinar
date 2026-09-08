@@ -1,34 +1,45 @@
 ---
 name: flowchart
-description: Create an editable workflow, system map or content funnel with truthful arrows and readable labels, without assuming a particular brand or diagram tool.
+description: Create editable flowcharts, system maps and funnels with semantic icons, structured operation cards, distinct skill and decision shapes, and verified routing.
 ---
 
-# Draw a flowchart
+# Draw an editable flowchart
 
-Read `AGENTS.md`, the actual workflow sources and `brand/BRAND.md`. For a content funnel, read the strategy and stage pages. Resolve unclear relationships from evidence before treating a familiar funnel shape as truth.
+Read `AGENTS.md`, the actual workflow sources and `brand/BRAND.md`. Resolve paths from this skill's repository. For a content funnel, read the strategy and stage pages. When editing, inspect the existing scene and generator, preserve manual changes and retain the current viewing URL.
 
-## Define the model
+## Model the process
 
-Identify the trigger, actions, inputs, outputs, decisions, exceptions and destination. Distinguish a content category from a process step. A top/middle/bottom funnel describes progression; it does not prove that every reader follows a linear path.
+Identify triggers, inputs, operations, decisions, outputs, exceptions and feedback before choosing the layout. Give each nontrivial branch an explicit destination.
 
-Label each arrow with the real event or dependency when that is not obvious. In a signal-based outbound map, distinguish engagement capture, buyer-fit qualification, routing, draft creation, human review and sending. Do not draw a reaction as an automatic meeting or sale.
+Use narrowing shapes for filtering, lanes for ownership and arrows for real dependencies. A taxonomy of pillars or test dimensions is a set of choices, not a sequential process. Top/middle/bottom describe content jobs; readers need not pass through every stage.
 
-Mark proposed steps explicitly when they are not implemented. Use counts and outcomes only when sourced. Create a compact overview plus detail views when a single canvas would be unreadable.
+In signal-based outreach, distinguish engagement capture, buyer-fit qualification, routing, draft creation, review and sending. Label proposed steps and dated snapshots. Engagement alone does not imply buyer intent, permission or a sale. Drawing an operation does not execute it.
 
-## Choose an editable format
+## Make the roles visible
 
-Use the tool named by the user. Otherwise inspect existing project tooling:
-- Excalidraw: use the available connector or local editor and save a native `.excalidraw` file.
-- React Flow or another existing React canvas: follow the project's actual package and data model.
-- Lucid or another hosted diagram tool: use it only when connected and within the requested write scope.
-- No diagram tool available: use editable SVG for a self-contained artifact, or Mermaid when its layout is sufficient.
+Read [the visual grammar and helper API](references/design-and-tools.md) when authoring a scene.
 
-Lucide is an icon library, not a flowchart editor. Do not invent a conversion or claim that an SVG is a native hosted diagram. Use current tool documentation when creating native files; verify import or rendering instead of assuming a JSON shape is accepted.
+- **Source/reference:** quiet file card or compact list; no action-style header that implies execution.
+- **Function/operation:** square card, light title band, semantic icon, labeled input/work rows and a distinct output strip.
+- **Skill:** rounded card and contrasting title band for a procedure that applies context or judgment. Classify its responsibility, not whether its name contains AI.
+- **Decision:** short question inside a diamond, with labeled exits and explicit hold/retry destinations.
+- **Signal/result:** a compact event or result shape. A numeric result can use large type with its unit, population and date.
+- **Grouping:** shared alignments or a light container for a meaningful stage. Use different compositions for an overview, taxonomy, funnel and result breakdown.
 
-## Lay out and verify
+Use semantic line icons for recognizable concepts such as a source file, person, company, context brain, calendar, message or verification. Keep icon size and stroke consistent. Each icon stays editable and grouped with its card. Icons are not a substitute for readable labels.
 
-Use one clear reading direction, short action labels, consistent node meanings and enough room for connectors. Prefer explicit yes/no branches to unlabeled crossings. No default logo, font brand, palette or watermark is prescribed. Apply supplied visual rules, or keep the map neutral.
+Use approved client tokens when available. The included helper defaults to neutral grays and a standard font slot; it contains no logo, signature, brand palette or client connections. Do not copy a reference client's visual identity or domain content.
 
-Inspect both the full map and the intended presentation view. Check every edge's endpoints, arrow direction, label, branch meaning and return loop; check for overlaps and tiny text. For native formats, reopen or import the saved file when tooling permits.
+## Build and inspect
 
-Deliver editable source and a rendered preview when available, with a short explanation of the path. State format and any unverified import or export limitation.
+Use the named tool or existing project canvas. For Excalidraw, `scripts/flowchart.py` and its adjacent `primitives.py` build native shapes, semantic icons, grouped cards, embedded images and reciprocal arrow bindings using Python's standard library. No scene is created on import. Pass a theme and font slot explicitly when integrating with a custom canvas.
+
+For other tools, reuse the visual grammar in their actual native model. Lucide is an icon library, not a diagram editor. Do not claim an SVG is a native hosted diagram.
+
+Compute connector endpoints from current card bounds. Route long returns outside the main flow. Leave room for labels. Shorten, wrap or enlarge a card before shrinking its text.
+
+Python estimates text sizes for authoring; actual glyph measurement and visual inspection are still required. Render or import using the available editor. Verify actual fonts, text containment, connector collisions, branch meaning, reciprocal bindings and image aspect ratio. Do not silently substitute fonts or flatten editable elements to make validation pass.
+
+Open the rendered overview and useful detail views. A dense working map needs zoom; a phone preview checks hierarchy, not proof that every field is readable. Split a social graphic into fewer nodes or multiple slides.
+
+Deliver the editable scene, preview where available, dimensions, viewing URL and any inspection limitation. Keep reusable mechanics here and domain content in the diagram's own folder.

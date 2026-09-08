@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Mark JS available before paint so animation-only "collapsed/hidden" states
+     apply only with JS; without JS the page renders fully (PE + GEO). -->
+<script>document.documentElement.classList.add('js')</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KJ9W3QFL');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<title>B2B Search &amp; Enrichment API for AI Workflows | MoltSets</title>
+<meta name="description" content="The B2B Search &amp; Enrichment API for AI Workflows – search and enrich prospects for verified emails, mobiles &amp; LinkedIn data. Flat plans from $27/mo.">
+<link rel="canonical" href="https://moltsets.com/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+
+<!-- Preload primary fonts (LCP/FCP — body 400 + headline 700) -->
+<link rel="preload" href="/fonts/SF-Mono-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/SF-Mono-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MoltSets">
+<meta property="og:title" content="B2B Search &amp; Enrichment API for AI Workflows | MoltSets">
+<meta property="og:description" content="The B2B Search &amp; Enrichment API for AI Workflows – search and enrich prospects for verified emails, mobiles &amp; LinkedIn data. Flat plans from $27/mo.">
+<meta property="og:url" content="https://moltsets.com/">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://moltsets.com/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="B2B Search &amp; Enrichment API for AI Workflows | MoltSets">
+<meta name="twitter:description" content="The B2B Search &amp; Enrichment API for AI Workflows – search and enrich prospects for verified emails, mobiles &amp; LinkedIn data. Flat plans from $27/mo.">
+<meta name="twitter:image" content="https://moltsets.com/assets/og-image.png">
+
+<!-- Icons / PWA -->
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg?v=2">
+<link rel="apple-touch-icon" href="/assets/favicon.svg?v=2">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#F4805D">
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://moltsets.com/#org",
+      "name": "MoltSets",
+      "url": "https://moltsets.com/",
+      "logo": "https://moltsets.com/assets/favicon.svg",
+      "sameAs": ["https://www.linkedin.com/company/moltsets"],
+      "description": "MoltSets provides unlimited, 100%-verified B2B contact data APIs — business and personal emails, carrier-verified mobile phone numbers, and company and people search — built for Clay, Claude Code, and AI agents.",
+      "knowsAbout": ["B2B contact data", "email verification", "mobile phone verification", "data enrichment", "contact data API", "AI agents", "Clay", "Claude Code"],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "url": "https://support.moltsets.com"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://moltsets.com/#service",
+      "name": "MoltSets Contact Data APIs",
+      "serviceType": "B2B contact data enrichment API",
+      "provider": { "@id": "https://moltsets.com/#org" },
+      "areaServed": "Worldwide",
+      "description": "Unlimited, 100%-verified B2B contact data APIs — valid business and personal emails, real-time carrier-verified mobile phones, reverse email lookup, and company and people search — built for Clay, Claude Code, and autonomous AI agents.",
+      "offers": [
+        { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD", "description": "1,000 API calls to evaluate the data." },
+        { "@type": "Offer", "name": "Unlimited", "price": "27", "priceCurrency": "USD", "description": "Unlimited API calls, 5,000 requests every 5 hours." },
+        { "@type": "Offer", "name": "Unlimited Pro", "price": "97", "priceCurrency": "USD", "description": "Unlimited API calls, 75,000 requests every 5 hours." },
+        { "@type": "Offer", "name": "UGC Plan", "price": "497", "priceCurrency": "USD", "description": "Unlimited API calls, 900,000 requests every 5 hours (50% off $997)." }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://moltsets.com/#website",
+      "name": "MoltSets",
+      "url": "https://moltsets.com/",
+      "publisher": { "@id": "https://moltsets.com/#org" }
+    },
+    {
+      "@type": "WebPage",
+      "url": "https://moltsets.com/",
+      "name": "B2B Search & Enrichment API for AI Workflows | MoltSets",
+      "description": "The B2B Search & Enrichment API for AI Workflows – search and enrich prospects for verified emails, mobiles & LinkedIn data. Flat plans from $27/mo.",
+      "isPartOf": { "@id": "https://moltsets.com/#website" }
+    }
+  ]
+}
+</script>
+
+
+<!-- ── Tailwind (compiled, static) ── -->
+<link rel="stylesheet" href="/assets/tailwind.css">
+<script defer src="/moltsets-tailwind.js"></script>
+<link rel="stylesheet" href="/moltsets-base.css">
+
+<style>
+/* ── Responsive ── */
+  /* ── Mobile CTA bar (full-width, under header) ── */
+
+  @media (max-width:1040px) {
+    .stage { flex:none; overflow:visible; padding:16px 16px 24px; flex-direction:column; align-items:stretch; justify-content:flex-start; gap:20px; min-height:0; }
+
+    /* console: fixed, viewport-height contained box (terminal scrolls inside) */
+    .app-box, .app-box.wide { width:100% !important; height:calc(100dvh - 150px) !important; flex:none !important; display:flex; flex-direction:column; min-height:0; overflow:hidden; }
+    .ab-top { flex-shrink:0; }
+    .ab-body { flex:1; min-height:0 !important; max-height:none !important; overflow-y:auto !important; overflow-x:hidden; display:flex !important; flex-direction:column !important; }
+    .chat-pane { min-height:0 !important; max-height:none !important; border-right:none !important; overflow-y:auto !important; flex:1; }
+    .ab-prompt { flex-shrink:0; display:block !important; border-top:1px solid var(--brand) !important; position:static !important; background:var(--bg-base); }
+
+    /* second CTA, centered, below console */
+    .stage-hint { display:flex !important; opacity:1 !important; margin-top:0; }
+    .stage-hint-cta { width:auto !important; align-self:center; padding:13px 32px !important; }
+
+    /* help panel lifted out of console → full-width page sections */
+    .helpp.helpp-page { display:flex !important; background:transparent !important; padding:24px !important; border-top:1px solid var(--brand) !important; gap:22px !important; overflow:visible !important; width:100% !important; flex:none !important; }
+    .helpp.helpp-page .helpp-title { font-size:22px; }
+    .helpp.helpp-page .helpp-item { font-size:15px; padding:8px 0; align-items:flex-start; }
+    .helpp.helpp-page .helpp-feat { padding:24px; gap:14px; }
+    .helpp.helpp-page .helpp-featttl { font-size:18px; }
+    .helpp.helpp-page .cb { font-size:15px; padding:6px 0; align-items:flex-start; }
+
+    .mf { flex-shrink:0; padding:16px; flex-wrap:wrap; gap:8px; height:auto; }
+    .hero { flex-direction:column; gap:16px; padding:16px !important; }
+    .stats-table { font-size:11px; }
+    .stats-table td { padding:6px 8px; }
+    .indent-list { padding:16px 0 0 !important; }
+  }
+@media (max-width:600px) {
+    .mh { padding:0 16px; }
+    .hero-headline { font-size:18px !important; }
+    .stats-table .cell-value { font-size:13px; }
+    .floating-cta { right:12px !important; }
+    /* edge-to-edge terminal + full-width help sections on phones */
+    .chat-pane { padding:0 !important; }
+    .helpp.helpp-page { width:100% !important; }
+  }
+
+  /* ── Progressive enhancement ───────────────────────────────────────────────
+     Content is static and fully visible without JS. When JS is available
+     (html.js, set before paint) these rules collapse/hide elements so the
+     terminal can animate them in. The animation reveals the same nodes. */
+  html.js #stageBox        { width:1002px; height:770px; } /* full size from first paint (LCP) */
+  html.js #abPrompt        { display:none; }
+  html.js .anim-hide       { opacity:0; }
+  /* LCP: headline fades in on first paint (no JS gate) so it isn't blocked
+     by fonts.ready / typeLogo / the terminal sequence. */
+  @keyframes lcpFade { from { opacity:0; } to { opacity:1; } }
+  html.js #hh0             { animation: lcpFade .25s ease-out both; }
+  /* No-JS / pre-render: full-width console, everything revealed. */
+  html:not(.js) #stageBox     { width:1002px; }
+  html:not(.js) .reveal       { opacity:1; }
+  html:not(.js) .stage-hint   { opacity:1; }
+</style>
+
+</head>
+<body class="flex flex-col min-h-screen page-bg">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJ9W3QFL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-- ── HEADER ── -->
+
+
+
+
+
+
+<div class="mh">
+  <div class="mh-logo">
+    <a href="/" style="text-decoration:none;" title="MoltSets home"><div class="logo-type">
+      <span id="logoTyped"></span>
+      <span style="display:flex;align-items:center;margin-left:3px;">
+        <svg width="22" height="28" viewBox="202 4 36 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M224.061 39.4115H219.657V35.0082H224.061V39.4115Z" fill="#34D399"/>
+          <path d="M228.464 35.0082H224.061V30.6049H228.464V35.0082Z" fill="#34D399"/>
+          <path d="M232.867 30.6049H228.464V26.2016H232.867V30.6049Z" fill="#34D399"/>
+          <path d="M237.27 26.2016H232.867V21.7983H237.27V26.2016Z" fill="#34D399"/>
+          <path d="M232.867 21.7983H228.464V17.3951H232.867V21.7983Z" fill="#34D399"/>
+          <path d="M228.464 17.3951H224.061V12.9918H228.464V17.3951Z" fill="#34D399"/>
+          <path d="M224.061 12.9918H219.657V8.58848H224.061V12.9918Z" fill="#34D399"/>
+          <rect x="202.017" y="35.0005" width="13.23" height="4.41101" fill="#F4805D"/>
+        </svg>
+      </span>
+    </div></a>
+  </div>
+  <nav class="mh-nav">
+    <a href="/pricing/" class="btn-text" title="MoltSets pricing">pricing</a>
+    <a href="/how-it-works/" class="btn-text" title="How MoltSets works">how it works</a>
+    <a href="/our-data/" class="btn-text" title="MoltSets data">our data</a>
+    <a href="/faq/" class="btn-text" title="MoltSets frequently asked questions">faq</a>
+    <!--<a href="/for-agents/" class="btn-text" title="MoltSets for AI agents">for agents</a>-->
+    <div class="mh-sub">
+      <button class="btn-text mh-sub-trigger" type="button" aria-haspopup="true" aria-expanded="false">resources<span class="mh-sub-caret"></span></button>
+      <div class="mh-sub-panel" role="menu">
+        <a href="/partnerships/" title="MoltSets Partnerships">Partnerships</a>
+        <a href="https://developer.moltsets.com" target="_blank" rel="noopener" role="menuitem" title="MoltSets API Docs">API Docs</a>
+        <a href="https://developer.moltsets.com/integrations/moltsets-mcp" target="_blank" rel="noopener" role="menuitem" title="MoltSets MCP Guide">MCP Guide</a>
+        <a href="/library/" role="menuitem" title="MoltSets Skills Library">Skills Library</a>
+        <a href="/blog/" role="menuitem" title="MoltSets Blog">Blog</a>
+        <a href="https://support.moltsets.com" target="_blank" rel="noopener" role="menuitem" title="MoltSets Support Docs">Support Docs</a>
+      </div>
+    </div>
+  </nav>
+  <div class="mh-right">
+    <button class="mh-burger" id="mhBurger" aria-label="menu"><span></span><span></span><span></span></button>
+    <!--<button class="btn-text accent" onclick="window.open('https://app.moltsets.com/login','_blank','noopener')">log in</button>-->
+    <button class="btn-primary" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeuCpu-kpWS3fXQOdDlD1bPadVppLZe_LKE4v5grztG6hDbtA/viewform','_blank','noopener')">join our closed beta<span class="btn-icon" style="-webkit-mask-image:url('/assets/icons/chevron-right.svg');mask-image:url('/assets/icons/chevron-right.svg')"></span></button>
+  </div>
+</div>
+<div class="mh-mpanel" id="mhMPanel">
+  <nav class="mh-mpanel-nav" id="mhMPanelNav">
+    <a class="mh-mlink" href="/pricing/" title="MoltSets pricing">pricing</a>
+    <a class="mh-mlink" href="/how-it-works/" title="How MoltSets works">how it works</a>
+    <a class="mh-mlink" href="/our-data/" title="MoltSets data">our data</a>
+    <a class="mh-mlink" href="/faq/" title="MoltSets FAQs">faq</a>
+    <!--<a class="mh-mlink" href="/for-agents/" title="MoltSets for AI agents">for agents</a>-->
+    <div class="mh-mlink mh-msection">resources<span class="mh-mcaret"></span></div>
+    <a href="/partnerships/" class="mh-mlink mh-msub" title="MoltSets Partnerships">Partnerships</a>
+    <a href="https://developer.moltsets.com" class="mh-mlink mh-msub" target="_blank" rel="noopener" role="menuitem" title="MoltSets API Docs">API Docs</a>
+    <a href="https://developer.moltsets.com/integrations/moltsets-mcp" class="mh-mlink mh-msub" target="_blank" rel="noopener" role="menuitem" title="MoltSets MCP Guide">MCP Guide</a>
+    <a href="/library/" class="mh-mlink mh-msub" role="menuitem" title="MoltSets Skills Library">Skills Library</a>
+    <a href="/blog/" class="mh-mlink mh-msub" role="menuitem" title="MoltSets Blog">Blog</a>
+    <a href="https://support.moltsets.com" target="_blank" rel="noopener" class="mh-mlink mh-msub" role="menuitem" title="MoltSets Support Docs">Support Docs</a>
+    <!--<a class="mh-mlink" href="https://app.moltsets.com/login" target="_blank" rel="noopener" title="Log in to MoltSets">log in</a>-->
+  </nav>
+  <button class="btn-primary mh-mpanel-cta" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeuCpu-kpWS3fXQOdDlD1bPadVppLZe_LKE4v5grztG6hDbtA/viewform','_blank','noopener')">join our closed beta<span class="btn-icon" style="-webkit-mask-image:url('/assets/icons/chevron-right.svg');mask-image:url('/assets/icons/chevron-right.svg')"></span></button>
+</div>
+
+
+<!-- ── STAGE ── -->
+<div class="stage">
+  <div class="app-box" id="stageBox">
+    <span class="cm tl"></span><span class="cm tr"></span>
+    <span class="cm bl"></span><span class="cm br"></span>
+    <div class="ab-top">
+      <div class="traffic">
+        <span class="dot r"></span>
+        <span class="dot y"></span>
+        <span class="dot g"></span>
+      </div>
+      <span class="ab-title">MoltSets Console - CLOSED BETA</span>
+    </div>
+    <div class="ab-body" id="abBody">
+      <div class="chat-pane" id="chatPane">
+        <!-- Static content (crawlable). JS reveals these nodes with the terminal
+             animation; without JS they are simply visible. -->
+        <div class="hero px-6" id="heroBlock">
+          <div class="mascot-stage" id="mascotStage"></div>
+          <div class="hero-headlines" id="heroHeadlines">
+            <h1 class="hero-headline" id="hh0" style="font-size:22px;">The B2B Search & Enrichment API for AI Workflows</h1>
+            <div style="display:flex;flex-direction:column;gap:4px;margin-top:8px;">
+              <div class="text-body font-normal anim-hide" id="hh1a" style="color:var(--fg-secondary);">Enrich your prospect lists with verified emails, mobile numbers, and LinkedIn data, right inside your AI stack from only $27/mo!</div>
+            </div>
+          </div>
+        </div>
+        <div class="px-6 pt-2 anim-hide" id="diffBlock">
+          <h2 class="h2" style="padding:8px 0 8px;color:var(--fg-secondary);">What Makes MoltSets Different:</h2>
+          <div class="flex flex-col" style="border-left:3px solid var(--brand);padding-left:24px;">
+            <div id="dt0" class="font-mono text-body text-success anim-hide" style="padding:0 0 4px;border-bottom:1px dashed var(--fg-muted);">API-first, no dashboard – call MoltSets straight from Clay, Claude Code, Codex, or your own stack via API or MCP</div>
+            <div id="dt1" class="font-mono text-body text-success anim-hide" style="padding:4px 0 8px;border-bottom:1px dashed var(--fg-muted);">Flat, tier-based pricing – unlimited access to core data within your plan, no per-lookup credits. From $27/mo</div>
+            <div id="dt2" class="font-mono text-body text-success anim-hide" style="padding:4px 0 8px;border-bottom:1px dashed var(--fg-muted);">Search and enrich – find new prospects (e.g. VPs of Marketing at target accounts) or append verified data to lists you have</div>
+            <div id="dt3" class="font-mono text-body text-success anim-hide" style="padding:4px 0 0;">Verified data with a risk score – emails run through a validation waterfall; mobiles are carrier-verified in real time</div>
+          </div>
+        </div>
+        <div class="px-6 anim-hide" id="nextBlock">
+          <h3 class="h2" style="padding:8px 0 10px;color:var(--fg-secondary);">What would you like to do next?</h3>
+          <div class="indent-list">
+            <div class="indent-row anim-hide" id="nb0"><span class="indent-icon" style="background:var(--success);"></span><span class="indent-text">1 / <a href="https://developer.moltsets.com" target="_blank" rel="noopener" class="action-link" title="See all of the MoltSets APIs">See all of our APIs.</a></span></div>
+            <div class="indent-row anim-hide" id="nb1"><span class="indent-icon" style="background:var(--success);"></span><span class="indent-text">2 / <a href="https://docs.google.com/forms/d/e/1FAIpQLSeuCpu-kpWS3fXQOdDlD1bPadVppLZe_LKE4v5grztG6hDbtA/viewform" target="_blank" rel="noopener" class="action-link" title="Join the closed beta">Join the closed beta.</a></span></div>
+            <div class="indent-row anim-hide" id="nb2"><span class="indent-icon" style="background:var(--success);"></span><span class="indent-text">3 / <a href="/how-it-works/" class="action-link" title="How MoltSets works">See how MoltSets works.</a></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="helpp" id="helpPanel" style="gap:8px;padding:16px; justify-content:space-between;">
+        <div class="helpp-title reveal"><a href="https://developer.moltsets.com" target="_blank" title="MoltSets API Docs" class="api-docs" rel="noopener">Click here to see our full list of APIs</a></div>
+        <h2 class="reveal" style="font:400 12px/16px var(--font-mono);color:var(--fg-muted);margin:0;">Popular contact data API endpoints</h2>
+        <div class="helpp-item reveal"><span class="helpp-chev"></span><span class="helpp-cmd" style="color:var(--fg-secondary);">verified business emails</span><span class="helpp-desc" style="color:var(--fg-secondary);">(beta)</span></div>
+        <div class="helpp-item reveal"><span class="helpp-chev"></span><span class="helpp-cmd" style="color:var(--fg-secondary);">verified personal emails</span><span class="helpp-desc" style="color:var(--fg-secondary);">(beta)</span></div>
+        <div class="helpp-item reveal"><span class="helpp-chev"></span><span class="helpp-cmd" style="color:var(--fg-secondary);">verified mobile phones</span><span class="helpp-desc" style="color:var(--fg-secondary);">(beta)</span></div>
+        <div class="helpp-item reveal"><span class="helpp-chev"></span><span class="helpp-cmd" style="color:var(--fg-secondary);">reverse email lookup (beta)</span><span class="helpp-desc" style="color:var(--fg-secondary);">(beta)</span></div>
+        <div class="helpp-item reveal"><span class="helpp-chev"></span><span class="helpp-cmd" style="color:var(--fg-secondary);">company and people searches</span><span class="helpp-desc" style="color:var(--fg-secondary);">(alpha)</span></div>
+        <div class="helpp-feat reveal" style="gap:11px;">
+          <h2 class="helpp-featttl text-sm" style="margin:0;">Why AI agents love MoltSets</h2>
+          <div class="cb text-sm font-bold"><i class="icon icon-on"></i>100% Verified Emails and Phone Numbers</div>
+          <div class="cb text-sm font-bold"><i class="icon icon-on"></i>High coverage - 20+ vendor waterfall</div>
+          <div class="cb text-sm font-bold"><i class="icon icon-on"></i>Flat-rate plans with high rate limits, built for scale</div>
+          <div class="cb text-sm font-bold"><i class="icon icon-on"></i>MCP-native – no integration code required</div>
+        </div>
+      </div>
+    </div>
+    <div class="ab-prompt" id="abPrompt">
+      <div class="prompt-line">
+        <span class="p">moltsets-$</span>
+        <span class="caret" id="promptCursor"></span>
+        <input class="pinp" id="promptInput" placeholder="# ask me anything about moltsets" autocomplete="off" spellcheck="false">
+      </div>
+    </div>
+  </div>
+
+  <div class="stage-hint" id="stageHint">
+    <button class="stage-hint-cta" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeuCpu-kpWS3fXQOdDlD1bPadVppLZe_LKE4v5grztG6hDbtA/viewform','_blank','noopener')">join our closed beta<span class="stage-hint-cta-icon"></span></button>
+  </div>
+</div>
+
+<!-- ── FLOATING CTA ── -->
+<button class="floating-cta" onclick="if(window.Intercom){ Intercom('show'); }">
+  <span class="floating-label">moltsets.ai — ask us anything</span>
+  <span class="btn-icon" style="width:14px;height:14px;background:rgb(10,11,14);-webkit-mask-image:url('/assets/icons/robot-sharp.svg');mask-image:url('/assets/icons/robot-sharp.svg')"></span>
+</button>
+
+
+<!-- ── FOOTER ── -->
+<div class="mf">
+  <a href="https://support.moltsets.com" target="_blank" rel="noopener" title="MoltSets support docs">Support Docs</a>
+  <a href="https://developer.moltsets.com" target="_blank" rel="noopener" title="MoltSets developer docs">Developer Docs</a>
+  <a href="https://moltsets.com/library" title="MoltSets skills library">Skills Library</a>
+  <a href="/terms-of-service/" title="Terms of Service">Terms of Service</a>
+  <a href="/privacy-policy/" title="Privacy Policy">Privacy Policy</a>
+  <a href="/compliance/" title="Compliance">Compliance</a>
+</div>
+
+
+<script>
+function rand(a,b){ return Math.floor(Math.random()*(b-a+1))+a; }
+function delay(ms){ return new Promise(r=>setTimeout(r,ms)); }
+
+const WORD = 'moltsets';
+const LOGO_DELAYS = [300,110,90,80,95,80,100,85,90];
+async function typeLogo(){
+  const el = document.getElementById('logoTyped');
+  await delay(LOGO_DELAYS[0]);
+  for(let i=0;i<WORD.length;i++){ el.textContent=WORD.slice(0,i+1); await delay(LOGO_DELAYS[i+1]||90); }
+}
+
+const TFRAMES = Array.from({length:7},(_,i)=>`/assets/thinking/frame-${i+1}.svg`);
+const THOLD = [()=>rand(80,110),()=>rand(90,120),()=>rand(220,300),()=>rand(240,320),()=>rand(160,220),()=>rand(90,120),()=>rand(80,100)];
+function buildIcon(container){
+  TFRAMES.forEach((src,i)=>{ const d=document.createElement('div'); d.className='frame'+(i===0?' active':''); const img=document.createElement('img'); img.src=src; img.alt=''; d.appendChild(img); container.appendChild(d); });
+}
+function startIcon(container){
+  const frames=container.querySelectorAll('.frame'); let cur=0;
+  function next(){ frames[cur].classList.remove('active'); cur=(cur+1)%frames.length; frames[cur].classList.add('active'); setTimeout(next,THOLD[cur]()); }
+  setTimeout(next,rand(0,300));
+}
+function animateDots(el){
+  const states=['thinking.','thinking..','thinking...']; let i=0;
+  function step(){ i=(i+1)%states.length; el.textContent=states[i]; setTimeout(step,rand(260,480)); }
+  setTimeout(step,rand(0,400));
+}
+function showThinking(container, beforeNode){
+  const think=document.createElement('div'); think.className='think';
+  const icon=document.createElement('div'); icon.className='think-icon';
+  const dots=document.createElement('span'); dots.textContent='thinking.';
+  think.appendChild(icon); think.appendChild(dots);
+  if(beforeNode){ container.insertBefore(think, beforeNode); } else { container.appendChild(think); }
+  buildIcon(icon); startIcon(icon); animateDots(dots);
+  return think;
+}
+async function revealAll(parent, stepMs=[80,130]){
+  const items=parent.querySelectorAll('.reveal');
+  for(const item of items){ await delay(rand(stepMs[0],stepMs[1])); item.classList.add('shown'); }
+}
+
+const MFRAMES=['/assets/avatar/step-1.svg','/assets/avatar/step-2.svg','/assets/avatar/step-3.svg','/assets/avatar/step-4.svg','/assets/avatar/step-5.svg','/assets/avatar/step-6.svg','/assets/avatar/step-final.svg'];
+const MDELAYS=[0,150,90,80,90,80,60];
+function buildMascot(container){
+  MFRAMES.forEach((src,i)=>{ const d=document.createElement('div'); d.className='mf-frame'+(i===0?' active':''); const img=document.createElement('img'); img.src=src; img.alt='mascot'; d.appendChild(img); container.appendChild(d); });
+}
+function playMascot(container){
+  const frames=container.querySelectorAll('.mf-frame');
+  frames.forEach(f=>f.classList.remove('active'));
+  let elapsed=0;
+  MDELAYS.forEach((d,i)=>{ elapsed+=d; setTimeout(()=>{ frames.forEach(f=>f.classList.remove('active')); if(frames[i]) frames[i].classList.add('active'); },elapsed); });
+}
+
+function screenHome(pane){
+  // Content is already in the DOM (static, crawlable). Reveal the existing
+  // nodes in sequence — same terminal animation, no innerHTML injection.
+  (async()=>{
+    const ms = document.getElementById('mascotStage');
+    document.getElementById('heroBlock').style.opacity = '1';
+    buildMascot(ms); playMascot(ms);
+    await delay(rand(400,600));
+    document.getElementById('hh0').style.opacity = '1';
+    await delay(rand(140,200));
+    document.getElementById('hh1a').style.opacity = '1';
+    await delay(rand(120,160));
+    await delay(rand(200,300));
+
+    // ── reveal diffBlock ──
+    const diffBlock = document.getElementById('diffBlock');
+    await delay(rand(200,300));
+    diffBlock.style.opacity = '1';
+    await delay(rand(80,120));
+    for(let i=0;i<4;i++){ document.getElementById('dt'+i).style.opacity='1'; await delay(rand(100,160)); }
+    await delay(rand(300,450));
+    revealAll(document.getElementById('helpPanel'), [70,110]);
+    await delay(rand(200,300));
+
+    // ── reveal nextBlock ──
+    const nextBlock = document.getElementById('nextBlock');
+    await delay(rand(200,300));
+    nextBlock.style.opacity = '1';
+    await delay(rand(80,120));
+    document.getElementById('nb0').style.opacity = '1';
+    await delay(rand(120,180));
+    document.getElementById('nb1').style.opacity = '1';
+    await delay(rand(180,240));
+    document.getElementById('nb2').style.opacity = '1';
+  })();
+}
+
+(async()=>{
+  await document.fonts.ready;
+  await typeLogo();
+  placeHelpPanel();
+  document.getElementById('abPrompt').style.display = 'block';
+  document.getElementById('promptInput').focus({preventScroll:true});
+  await delay(120);
+  const pane = document.getElementById('chatPane');
+  screenHome(pane);
+  await delay(2000);
+  document.getElementById('stageHint').classList.add('shown');
+})();
+
+// ── Responsive help-panel placement ──────────────────────────────────────
+// ≤1040px: lift the help panel OUT of the console → full-width page sections.
+// >1040px: keep it as the console's side panel.
+// Runs on load AND on resize so the layout rearranges live (no reload needed).
+function placeHelpPanel(){
+  const hp = document.getElementById('helpPanel');
+  const stage = document.querySelector('.stage');
+  const abBody = document.getElementById('abBody');
+  if(!hp || !stage || !abBody) return;
+  const mobile = window.innerWidth <= 1040;
+  if(mobile && hp.parentElement !== stage){
+    hp.classList.add('helpp-page');
+    stage.appendChild(hp);                 // below console + CTA
+  } else if(!mobile && hp.parentElement !== abBody){
+    hp.classList.remove('helpp-page');
+    abBody.appendChild(hp);                 // back beside the chat pane
+  }
+}
+(function(){
+  let raf = null;
+  window.addEventListener('resize', function(){
+    if(raf) return;
+    raf = requestAnimationFrame(function(){ raf = null; placeHelpPanel(); });
+  }, {passive:true});
+})();
+
+(function(){
+  const burger = document.getElementById('mhBurger');
+  const panel  = document.getElementById('mhMPanel');
+  if(!burger || !panel) return;
+  const links = Array.prototype.slice.call(panel.querySelectorAll('.mh-mlink'));
+  let open = false, closeTimer = null;
+  function openMenu(){
+    if(open) return;
+    open = true;
+    clearTimeout(closeTimer);
+    burger.classList.add('open'); burger.setAttribute('aria-expanded','true');
+    panel.classList.remove('closing');
+    panel.classList.add('open');
+    links.forEach(l => l.classList.remove('shown'));
+    (async()=>{
+      for(const l of links){ await delay(rand(45,85)); if(!open) return; l.classList.add('shown'); }
+    })();
+  }
+  function closeMenu(){
+    if(!open) return;
+    open = false;
+    burger.classList.remove('open'); burger.setAttribute('aria-expanded','false');
+    panel.classList.add('closing');
+    closeTimer = setTimeout(()=>{
+      panel.classList.remove('open','closing');
+      links.forEach(l => l.classList.remove('shown'));
+    }, 140);
+  }
+  burger.addEventListener('click', ()=> open ? closeMenu() : openMenu());
+  const activeItem = document.getElementById('mhActiveItem');
+  if(activeItem) activeItem.addEventListener('click', closeMenu);
+})();
+
+(function(){
+  const fcta=document.querySelector('.floating-cta'); if(!fcta) return;
+  let t;
+  fcta.addEventListener('click',function(e){ if(!fcta.classList.contains('expanded')){ fcta.classList.add('expanded'); t=setTimeout(()=>fcta.classList.remove('expanded'),3000); e.stopPropagation(); } });
+  document.addEventListener('click',function(){ clearTimeout(t); fcta.classList.remove('expanded'); });
+})();
+
+(function(){
+  const input=document.getElementById('promptInput'), cursor=document.getElementById('promptCursor');
+  if(!input||!cursor) return;
+  function update(){ cursor.style.display=(document.activeElement===input||input.value)?'none':'inline-block'; }
+  input.addEventListener('focus',update); input.addEventListener('blur',update); input.addEventListener('input',update);
+
+  // ── Prompt submit: command-not-ready response, then re-show page actions ──
+  // Page-specific "What would you like to do next?" actions (mirrors #nextBlock).
+  const ACTIONS_HTML = `
+    <h3 class="h2" style="padding:8px 0 10px;color:var(--fg-secondary);">What would you like to do next?</h3>
+    <div class="indent-list">
+      <div class="indent-row"><span class="indent-icon" style="background:var(--success);"></span><span class="indent-text">1 / <a href="https://docs.google.com/forms/d/e/1FAIpQLSeuCpu-kpWS3fXQOdDlD1bPadVppLZe_LKE4v5grztG6hDbtA/viewform" target="_blank" rel="noopener" class="action-link" title="Join the closed beta">Join the closed beta.</a></span></div>
+      <div class="indent-row"><span class="indent-icon" style="background:var(--success);"></span><span class="indent-text">2 / <a href="/how-it-works/" class="action-link" title="How MoltSets works">See how MoltSets works.</a></span></div>
+    </div>`;
+
+  let responding = false;
+  async function respond(cmd){
+    if(responding) return;
+    responding = true;
+    const pane = document.getElementById('chatPane');
+
+    // dim + disable any prior action blocks (the page's first list + earlier replies)
+    pane.querySelectorAll('#nextBlock, .actions-block').forEach(function(b){
+      if(b.classList.contains('actions-spent')) return;
+      b.classList.add('actions-spent');
+      b.style.transition = 'opacity 200ms steps(3,end)';
+      b.style.opacity = '0.38';
+      b.style.pointerEvents = 'none';
+    });
+
+    // echo the user's command, terminal style
+    const echo = document.createElement('div');
+    echo.className = 'px-6';
+    echo.style.cssText = 'display:flex;gap:8px;align-items:baseline;';
+    const lead = document.createElement('span');
+    lead.style.cssText = 'color:var(--brand);font:400 14px/1.4 var(--font-mono);flex-shrink:0;';
+    lead.textContent = 'moltsets-$';
+    const said = document.createElement('span');
+    said.style.cssText = 'color:var(--fg-primary);font:400 14px/1.4 var(--font-mono);min-width:0;word-break:break-word;';
+    said.textContent = cmd;
+    echo.appendChild(lead); echo.appendChild(said);
+    pane.appendChild(echo);
+    pane.scrollTop = pane.scrollHeight;
+
+    // thinking indicator
+    const tk = showThinking(pane);
+    pane.scrollTop = pane.scrollHeight;
+    await delay(rand(750,1100));
+    tk.remove();
+
+    // reply + re-show actions
+    const reply = document.createElement('div');
+    reply.className = 'px-6';
+    reply.innerHTML = `
+      <div class="reveal font-mono text-body" style="color:var(--hint);">That command isn&rsquo;t wired up yet &mdash; but it will be soon.</div>
+      <div class="reveal font-mono text-body" style="color:var(--fg-secondary);padding-top:4px;">moltsets is in early access &mdash; most commands aren&rsquo;t live yet.</div>
+      <div class="reveal actions-block" style="padding-top:12px;">${ACTIONS_HTML}</div>`;
+    pane.appendChild(reply);
+    await delay(rand(80,120));
+    for(const r of reply.querySelectorAll('.reveal')){ r.classList.add('shown'); pane.scrollTop = pane.scrollHeight; await delay(rand(130,210)); }
+    pane.scrollTop = pane.scrollHeight;
+    responding = false;
+  }
+
+  function findPromptLink(n){
+    let match=null;
+    document.querySelectorAll('.indent-row').forEach(function(row){
+      const container=row.closest('#nextBlock, .actions-block');
+      if(container && container.classList.contains('actions-spent')) return;
+      const txt=row.querySelector('.indent-text, .indent-row-text'), a=row.querySelector('a.action-link');
+      if(!txt || !a) return;
+      if((txt.textContent.split('/')[0]||'').trim()===n) match=a;
+    });
+    return match;
+  }
+  // follow a numbered prompt the instant a digit is typed into an empty input — no Enter needed
+  input.addEventListener('keydown', function(e){
+    if(input.value !== '' || e.key.length !== 1 || !/\d/.test(e.key)) return;
+    const link = findPromptLink(e.key);
+    if(!link) return;
+    e.preventDefault();
+    if(link.target === '_blank'){ window.open(link.href, '_blank', 'noopener'); }
+    else { window.location.href = link.href; }
+  });
+  input.addEventListener('keydown', function(e){
+    if(e.key !== 'Enter') return;
+    e.preventDefault();
+    const cmd = input.value.trim();
+    if(!cmd) return;                 // do nothing on empty input
+    // exact-number input → follow the matching numbered prompt link
+    if(/^\d+$/.test(cmd)){
+      const link = findPromptLink(cmd);
+      if(link){
+        input.value = ''; update();
+        if(link.target === '_blank'){ window.open(link.href, '_blank', 'noopener'); }
+        else { window.location.href = link.href; }
+        return;
+      }
+    }
+    input.value = '';
+    update();
+    if(window.Intercom){ Intercom('showNewMessage', cmd); }
+  });
+})();
+</script>
+
+
+
+
+
+<script>
+  window.intercomSettings = { app_id: "tab4d6vl" };
+</script>
+<script>
+  (function(){
+    var w=window;var ic=w.Intercom;
+    if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);return;}
+    var d=document;
+    var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;
+    var loaded=false;
+    function load(){
+      if(loaded)return;loaded=true;
+      var s=d.createElement('script');s.type='text/javascript';s.async=true;
+      s.src='https://widget.intercom.io/widget/tab4d6vl';
+      var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+    }
+    // 1) Load on the first real user interaction.
+    var events=['pointerdown','keydown','touchstart','mousemove','scroll'];
+    function trigger(){ events.forEach(function(e){ w.removeEventListener(e,trigger); }); load(); }
+    events.forEach(function(e){ w.addEventListener(e,trigger,{passive:true}); });
+    // 2) Fallback for passive users: load when the browser is idle after page load.
+    function idle(){ ('requestIdleCallback' in w) ? w.requestIdleCallback(load,{timeout:6000}) : setTimeout(load,5000); }
+    if(d.readyState==='complete'){ idle(); } else { w.addEventListener('load',idle,{once:true}); }
+  })();
+</script>
+
+<!-- Cookie banner -->
+<div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Cookie notice">
+  <span>This site uses cookies for analytics and to understand how visitors interact with our site. See our <a href="/privacy-policy/" title="Privacy Policy">Privacy Policy</a> for details.</span>
+  <div class="cookie-actions">
+    <button type="button" class="cookie-ok" id="cookieOk">Okay</button>
+  </div>
+</div>
+<script>
+(function(){
+  var KEY='cookieConsentDismissed';
+  try { if (localStorage.getItem(KEY) === '1') return; } catch(e) {}
+  var b = document.getElementById('cookieBanner');
+  if (!b) return;
+  setTimeout(function(){ b.classList.add('show'); }, 2000);
+  document.getElementById('cookieOk').addEventListener('click', function(){
+    b.classList.remove('show');
+    try { localStorage.setItem(KEY, '1'); } catch(e) {}
+    setTimeout(function(){ b.parentNode && b.parentNode.removeChild(b); }, 450);
+  });
+})();
+</script>
+<!-- End Cookie banner -->
+
+</body>
+</html>

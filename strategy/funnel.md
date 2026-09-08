@@ -1,40 +1,46 @@
 ---
 type: context
-status: stub
+status: draft
 owner: adam
 created: 2026-09-07
-updated: 2026-09-07
-sources: []
-tags: [template]
+updated: 2026-09-08
+sources: [raw/sources/2026-09-08-linkedin/posts/2026-08-25-7498049303853191168.md, raw/sources/2026-09-08-linkedin/posts/2026-06-28-7477048608886812672.md, raw/sources/2026-09-08-youtube/videos/eUzqVJpZPP4/eUzqVJpZPP4.md]
+tags: [funnel, distribution, interpretation]
 ---
 
 # Funnel
 
-> Status: empty template. Fill from Adam's sources.
+## Summary
 
-## What each stage does
+**Proposed interpretation of the observed content system:** founder stories earn attention; operating explanations and live demonstrations build trust; relevant product or workshop invitations provide a next step. One piece should have one primary job, even when the source contains an educational section and a product bridge.
 
-- Top: earn attention from the intended audience.
-- Middle: explain the method and build trust.
-- Bottom: help a ready reader take a defined next step.
+| Stage | Reader job | Observed source pattern | Linked page |
+| --- | --- | --- | --- |
+| Top | Recognize a problem or a credible perspective | Founder setbacks, freedom, financing tradeoffs, counterintuitive operating views | [[strategy/funnel/top-of-funnel]] |
+| Middle | Understand the method and its limits | Customer discovery, economics, workflow demonstrations, support systems and teardown-style teaching | [[strategy/funnel/middle-of-funnel]] |
+| Bottom | Decide whether a relevant next step fits | Workshop registration/resources, product signup, contact-data/API or flat-file inquiry | [[strategy/funnel/bottom-of-funnel]] |
 
-## Conversion target
+## Observed conversion paths
 
+The April 16 tutorial bridges LinkedIn content to website traffic and RB2B's visitor-identification product, using an explicit signup invitation. The June 28 workshop invitation offers usable skills and accessible instruction. The August 25 MoltSets plan combines founder content, a prospective creator program, email, SEO and YouTube; it distinguishes product-led API adoption from sales-led flat-file deals. These are dated source patterns, not a newly approved campaign or verification of current free plans. [Tutorial](../raw/sources/2026-09-08-youtube/videos/eUzqVJpZPP4/eUzqVJpZPP4.md), [workshop](../raw/sources/2026-09-08-linkedin/posts/2026-06-28-7477048608886812672.md), [plan](../raw/sources/2026-09-08-linkedin/posts/2026-08-25-7498049303853191168.md).
 
-## Inbound response
+## Measurement and attribution
 
+A future campaign can separately measure qualified attention, resource or workshop participation, product signup, activation and paying conversion. These are proposed event categories; no tracking implementation or baseline was supplied. Self-attributed content or outbound revenue in [[identity/proof]] is not an incrementality study. Impressions, followers, website visitors, waitlist entries and paying customers are different populations.
 
-## Signal-based outbound
+## Inbound and outbound boundaries
 
-
-## Measurement
-
-
+Documented workshop/resource interest can support an appropriate response plan, but this research sends no messages. A reaction, identified visit or scraped profile is not permission to contact someone or proof they are a qualified buyer. The content brief must define any future inbound handling or outbound scope explicitly.
 
 ## Related Pages
 
-- [[pillars]]
+- [[strategy/pillars]]
+- [[audience/ideal-follower]]
+- [[strategy/goals]]
+- [[identity/proof]]
 
 ## Source Notes
 
-No Adam source material has been added.
+- [[raw/sources/2026-09-08-youtube/videos/eUzqVJpZPP4/eUzqVJpZPP4]] — 2026-04-16, product bridges around 03:44 and 06:50.
+- [[raw/sources/2026-09-08-linkedin/posts/2026-06-28-7477048608886812672]] — historical workshop launch invitation.
+- [[raw/sources/2026-09-08-linkedin/posts/2026-08-25-7498049303853191168]] — acquisition plan and different commercial routes. Funnel labels are synthesis.

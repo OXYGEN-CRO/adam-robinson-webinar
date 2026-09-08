@@ -1,6 +1,6 @@
 # Adam Robinson Webinar
 
-Blank second brain and content workspace for the live setup.
+A source-backed second brain for Adam Robinson, with a linked context wiki and a searchable archive of public posts and transcripts.
 
 [Open Notion](https://app.notion.com/p/3d4b3dd667a781dcac4aea561260a788) · [Context index](index.md) · [Interview prompts](templates/context-interview.md)
 
@@ -11,39 +11,46 @@ identity/         backstory, mission, values, positioning, proof
 audience/         ideal follower, pains and language
 strategy/         goals, pillars, funnel and Notion configuration
 voice/            writing examples, vocabulary and formats
-brand/            visual brief and an empty assets folder
+brand/            MoltSets visual rules, assets and editable graphics kit
 inspiration/      creator references and what to learn from them
 raw/              original interviews, posts and transcripts
 research/         temporary research
 templates/        context pages, source manifests and Notion page bodies
 scripts/          wiki checks and optional qmd search setup
-.agents/skills/   12 reusable, unbranded content and visual skills
+.agents/skills/   13 reusable content, visual and launch-video skills
 index.md          map of the context pages
 log.md            record of what was added or changed
 ```
 
-The folders are ready; Adam's context is unfilled. The Notion page has an empty Content Board, Pillars & Topics, Hooks and Creator Inspo DB. “Pillar 1” through “Pillar 4” are temporary field options, not proposed content pillars.
+The source collection contains 200 recent Adam-profile LinkedIn posts, collected through Oxygen's managed scraper, and the latest 100 public YouTube uploads with timestamped transcripts. Dated web sources supplement the archive. The [context index](index.md) leads to synthesized identity, proof, values, audience, voice and proposed pillars; the raw material stays under `raw/sources/` for retrieval when needed. The [YouTube library](strategy/youtube-library.md) links the detailed video notes and reports their coverage.
 
-## Start the live setup
+The existing Notion connection is unchanged. This collection task does not create, publish or schedule content there. The [MoltSets graphics system](brand/BRAND.md) is documented separately under its own brief.
 
-1. Record the conversation using [the interview prompts](templates/context-interview.md).
-2. Save the original material in a dated `raw/sources/` folder with a manifest.
-3. Run `capture-context` to fill the context pages from what Adam actually said.
-4. Name his pillars and topics in Notion. Put 4 subtopics in each topic page.
-5. Run `week-posts` after the audience, voice, sources and publishing choices are filled.
+## Use the second brain
 
-Claude Code and Codex read the same repository rules and skills. No sources, posts, creator entries, audience records or brand assets from Tim's repo were copied.
+1. Start at [index.md](index.md) and read the relevant synthesized context.
+2. Search QMD for a specific idea, person, metric or source phrase.
+3. Open the full dated source passage before making a claim. Read [proof.md](identity/proof.md) for current versus historical metrics and [source-policy.md](strategy/source-policy.md) for attribution.
+4. Keep new sources in dated, append-only raw folders with manifests. Update the relevant wiki pages and append to the log.
+5. Before new public copy, establish the current brief, offer, publishing choices and author review. The wiki's interpretations are drafts.
+
+The archive is available on demand; it does not need to be loaded wholesale for each task. Claude Code and Codex read the same repository rules and skills. For an exact phrase, preserve quotes inside the QMD query, for example `./scripts/qmd.sh search '"about to cross"' -c context`. Use `rg -n -F "phrase" raw/sources/` to search original files directly.
 
 ## Checks and local search
 
 ```sh
 ./scripts/wiki-lint.sh
-./scripts/qmd-setup.sh                  # optional; uses an installed qmd
+./scripts/qmd-setup.sh                  # initialize this checkout if needed
 ./scripts/qmd.sh search "backstory" -c context
-./scripts/qmd-refresh.sh                # after adding context
+python3 scripts/build_context_catalog.py
+./scripts/qmd-refresh.sh --embed        # refresh text search and vectors
 ```
 
-qmd is optional. Its separate named index contains only this repository. These setup scripts do not install software, download embedding models or change global agent configuration. Use `rg` until search is configured.
+QMD is configured with an isolated index for this repository. Source text and synthesized pages are embedded locally; no other client's collection or global agent configuration is changed. `qmd-refresh.sh` without `--embed` updates text search only. The embedding option uses the installed QMD runtime and its embedding model.
+
+Search includes the raw archive and reviewed wiki. Temporary `output/` exports and duplicate original `research/youtube-video-notes/` renders are excluded from QMD; those files remain available through `rg`. Reviewed video notes live in `strategy/video-notes/`, with explicit correction records that preserve the original model outputs.
+
+Verify capture integrity with `python3 scripts/verify_linkedin_context.py` and `python3 scripts/verify_youtube_context.py`. These recompute counts, identity, recency selection and text fidelity from the preserved raw objects.
 
 [Structural provenance](templates/origin.md)
 
@@ -64,6 +71,7 @@ The skills read the current author's context. They contain no preset name, voice
 | `flowchart` | Draw editable workflows, system maps and funnels |
 | `brand-system` | Establish or update the author's visual rules |
 | `brand-review` | Inspect rendered assets |
+| `launch-video` | Plan and produce a sourced product launch video |
 | `qmd` | Retrieve source context with isolated local search |
 
 This repository remains the webinar instance, with its existing Notion connection. For a new client, use the separate [Content Engine Template](https://github.com/OXYGEN-CRO/content-engine-template), which has blank configuration and no inherited client history. Its ZIP can be shared without GitHub access.

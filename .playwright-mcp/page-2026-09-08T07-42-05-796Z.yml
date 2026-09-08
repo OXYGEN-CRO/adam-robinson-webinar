@@ -1,0 +1,94 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "mo" [ref=e4] [cursor=pointer]:
+      - /url: /
+    - navigation [ref=e17]:
+      - link "pricing" [ref=e18] [cursor=pointer]:
+        - /url: /pricing/
+      - link "how it works" [ref=e19] [cursor=pointer]:
+        - /url: /how-it-works/
+      - link "our data" [ref=e20] [cursor=pointer]:
+        - /url: /our-data/
+      - link "faq" [ref=e21] [cursor=pointer]:
+        - /url: /faq/
+      - button "resources" [ref=e23] [cursor=pointer]
+    - button "join our closed beta" [ref=e26] [cursor=pointer]
+  - generic [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]: MoltSets Console - CLOSED BETA
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e40]:
+            - heading "The B2B Search & Enrichment API for AI Workflows" [level=1] [ref=e41]
+            - generic [ref=e42]: Enrich your prospect lists with verified emails, mobile numbers, and LinkedIn data, right inside your AI stack from only $27/mo!
+          - generic [ref=e44]:
+            - heading "What Makes MoltSets Different:" [level=2] [ref=e45]
+            - generic [ref=e46]:
+              - generic [ref=e47]: API-first, no dashboard – call MoltSets straight from Clay, Claude Code, Codex, or your own stack via API or MCP
+              - generic [ref=e48]: Flat, tier-based pricing – unlimited access to core data within your plan, no per-lookup credits. From $27/mo
+              - generic [ref=e49]: Search and enrich – find new prospects (e.g. VPs of Marketing at target accounts) or append verified data to lists you have
+              - generic [ref=e50]: Verified data with a risk score – emails run through a validation waterfall; mobiles are carrier-verified in real time
+          - generic [ref=e51]:
+            - heading "What would you like to do next?" [level=3] [ref=e52]
+            - generic [ref=e53]:
+              - generic [ref=e56]:
+                - text: 1 /
+                - link "See all of our APIs." [ref=e57] [cursor=pointer]:
+                  - /url: https://developer.moltsets.com
+              - generic [ref=e60]:
+                - text: 2 /
+                - link "Join the closed beta." [ref=e61] [cursor=pointer]:
+                  - /url: https://docs.google.com/forms/d/e/1FAIpQLSeuCpu-kpWS3fXQOdDlD1bPadVppLZe_LKE4v5grztG6hDbtA/viewform
+              - generic [ref=e64]:
+                - text: 3 /
+                - link "See how MoltSets works." [ref=e65] [cursor=pointer]:
+                  - /url: /how-it-works/
+        - generic [ref=e66]:
+          - link "Click here to see our full list of APIs" [ref=e68] [cursor=pointer]:
+            - /url: https://developer.moltsets.com
+          - heading "Popular contact data API endpoints" [level=2] [ref=e69]
+          - generic [ref=e70]:
+            - generic [ref=e72]: verified business emails
+            - generic [ref=e73]: (beta)
+          - generic [ref=e74]:
+            - generic [ref=e76]: verified personal emails
+            - generic [ref=e77]: (beta)
+          - generic [ref=e78]:
+            - generic [ref=e80]: verified mobile phones
+            - generic [ref=e81]: (beta)
+          - generic [ref=e82]:
+            - generic [ref=e84]: reverse email lookup (beta)
+            - generic [ref=e85]: (beta)
+          - generic [ref=e86]:
+            - generic [ref=e88]: company and people searches
+            - generic [ref=e89]: (alpha)
+          - generic [ref=e90]:
+            - heading "Why AI agents love MoltSets" [level=2] [ref=e91]
+            - generic [ref=e92]: 100% Verified Emails and Phone Numbers
+            - generic [ref=e94]: High coverage - 20+ vendor waterfall
+            - generic [ref=e96]: Flat-rate plans with high rate limits, built for scale
+            - generic [ref=e98]: MCP-native – no integration code required
+    - button "join our closed beta" [ref=e101] [cursor=pointer]
+  - button "moltsets.ai — ask us anything" [ref=e103] [cursor=pointer]
+  - generic [ref=e106]:
+    - link "Support Docs" [ref=e107] [cursor=pointer]:
+      - /url: https://support.moltsets.com
+    - link "Developer Docs" [ref=e108] [cursor=pointer]:
+      - /url: https://developer.moltsets.com
+    - link "Skills Library" [ref=e109] [cursor=pointer]:
+      - /url: https://moltsets.com/library
+    - link "Terms of Service" [ref=e110] [cursor=pointer]:
+      - /url: /terms-of-service/
+    - link "Privacy Policy" [ref=e111] [cursor=pointer]:
+      - /url: /privacy-policy/
+    - link "Compliance" [ref=e112] [cursor=pointer]:
+      - /url: /compliance/
+  - dialog "Cookie notice":
+    - generic:
+      - text: This site uses cookies for analytics and to understand how visitors interact with our site. See our
+      - link "Privacy Policy":
+        - /url: /privacy-policy/
+      - text: for details.
+    - generic:
+      - button "Okay"
+  - iframe [aria-hidden] [ref=e113]

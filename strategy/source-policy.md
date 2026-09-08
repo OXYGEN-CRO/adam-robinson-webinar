@@ -14,7 +14,7 @@ tags: [sources, provenance, recency, retrieval]
 
 This wiki is a research synthesis of Adam Robinson's public material, prepared for the repository owner's brief. It is not an approved biography, campaign or voice guide. The brief requests 200 recent LinkedIn posts, the newest 100 YouTube videos with transcripts, supporting online context and a repository-specific QMD embedding index.
 
-A later request expanded the LinkedIn archive using the existing Oxygen dev / RB2B table. The combined corpus has 914 Adam-profile records from February 2023 through September 2026, including 911 nonempty bodies and three explicitly empty source records. All 979 table rows remain preserved; 65 other-author records are excluded from Adam's corpus. The full available table is captured, but completeness of Adam's lifetime LinkedIn history is unknown. Existing synthesized conclusions retain their documented 200-post evidence scope until the additional posts are reviewed.
+A later request expanded the LinkedIn archive using the existing Oxygen dev / RB2B table. The combined corpus has 914 Adam-profile records from February 2023 through September 2026, including 911 nonempty bodies and three explicitly empty source records. All 979 table rows remain preserved; 65 other-author records are excluded from Adam's corpus. The full available table is captured, but completeness of Adam's lifetime LinkedIn history is unknown. The original 200-post synthesis has been extended through a focused review of 21 older posts. Each addition cites its evidence; this is not a completed semantic review of all 914 records. See [[research/context-expansion-review]].
 
 ## Reading claims
 

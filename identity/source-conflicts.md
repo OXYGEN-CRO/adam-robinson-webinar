@@ -4,7 +4,7 @@ status: draft
 owner: adam
 created: 2026-09-08
 updated: 2026-09-08
-sources: [raw/sources/2026-09-08-linkedin/posts.normalized.json, raw/sources/2026-09-08-youtube/selected-100.json, raw/sources/2026-09-08-web/sources.json, research/linkedin-synthesis.md, research/youtube-synthesis-a.md, research/youtube-synthesis-c.md]
+sources: [raw/sources/2026-09-08-linkedin/posts.normalized.json, raw/sources/2026-09-08-youtube/selected-100.json, raw/sources/2026-09-08-web/sources.json, research/linkedin-synthesis.md, research/youtube-synthesis-a.md, research/youtube-synthesis-c.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2023-05-24-7067218283166367744.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2023-08-12-7096229582869041152.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2024-03-28-7179219737141231617.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2024-06-11-7206396119432482817.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2025-07-19-7352407363783438336.md]
 tags: [conflicts, recency, evidence, uncertainty]
 ---
 
@@ -45,6 +45,16 @@ Publication is not necessarily measurement date. The [November 7, 2025 course at
 | RB2B AI resolution | [October 2025 walkthrough](https://www.youtube.com/watch?v=b7wERLHGkDo) distinguishes 85% of interactions and 75% support resolution; May 22, 2026 reports 98.9% tickets [P65]. | Improvement over time is plausible; differing interaction/ticket denominators cannot be merged into a universal automation rate. |
 | Visitor match rate | [October product video at 3:13](https://www.youtube.com/watch?v=IS4rbNLdPOk&t=193) says 40–45% of US traffic at person level and 70–80% total with international company data. [February video at 3:50](https://www.youtube.com/watch?v=Xovf7vlPfOU&t=230) captions present 70–80% at person level. | Preserve geographic and person/company distinction. A generic 80% person-identification guarantee is unsupported by the more specific explanation. |
 | MoltSets quality | June 26 guarantee narrative [P45]; July 6 reports example lists only 11% and 40% valid [P37]; August 6 proposes confidence grades [P20]. | Promised quality is not delivered accuracy. Two disappointing examples are not a measured global failure rate; later grades do not independently prove universal correctness. |
+
+## Additional boundaries from the expanded LinkedIn archive
+
+| Topic | Older evidence | Working treatment |
+| --- | --- | --- |
+| Scale versus lifestyle | [May 24, 2023](../raw/sources/2026-09-08-linkedin-rb2b/posts/2023-05-24-7067218283166367744.md) says he wished he had played bigger sooner; [August 12](../raw/sources/2026-09-08-linkedin-rb2b/posts/2023-08-12-7096229582869041152.md) describes a billion-dollar-company ambition. | A historical change of view, not an error to erase. The measure in the billion-dollar aspiration is unspecified; later sustainable-company direction remains later evidence. |
+| Audience quality | [March 28, 2024](../raw/sources/2026-09-08-linkedin-rb2b/posts/2024-03-28-7179219737141231617.md) claims 75% of his audience is in the ICP. | Dated self-report with no definition, sample or analytics export. It does not establish the composition of the present audience. |
+| Measuring founder content | The same March post wants quantifiable sales outcomes; [June 11, 2024](../raw/sources/2026-09-08-linkedin-rb2b/posts/2024-06-11-7206396119432482817.md) says he cannot attribute individual content activities and prioritizes human connection. | Commercial intent and limited per-piece attribution coexist. Do not flatten this into either “measure every post's revenue” or “ignore business relevance.” |
+| Founder-brand causality | [July 19, 2025](../raw/sources/2026-09-08-linkedin-rb2b/posts/2025-07-19-7352407363783438336.md) attributes RB2B's then-reported growth entirely to founder brand. | Another self-attribution claim, not incremental channel proof. It cannot be added to the separate cold-email percentages above. |
+| Export counts versus publishing counts | The RB2B table contains 979 rows, including 65 other authors and three empty Adam bodies. | The 914 Adam-record corpus and 911 available bodies are archive counts, not independently verified lifetime publishing totals. |
 
 ## Interpretation and attribution
 

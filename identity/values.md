@@ -4,7 +4,7 @@ status: draft
 owner: adam
 created: 2026-09-07
 updated: 2026-09-08
-sources: [raw/sources/2026-09-08-web/sources.json, raw/sources/2026-09-08-linkedin/posts.normalized.json, raw/sources/2026-09-08-youtube/selected-100.json, research/2026-09-08-adam-web-context.md, research/youtube-synthesis-c.md]
+sources: [raw/sources/2026-09-08-web/sources.json, raw/sources/2026-09-08-linkedin/posts.normalized.json, raw/sources/2026-09-08-youtube/selected-100.json, research/2026-09-08-adam-web-context.md, research/youtube-synthesis-c.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2023-05-24-7067218283166367744.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2024-02-06-7160748181696188416.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2025-07-19-7352407363783438336.md]
 tags: [values, first-party, interpretation]
 ---
 
@@ -44,6 +44,14 @@ These values support the four candidate pillars in [[strategy/pillars]]. They es
 
 His [February 2026 video at 8:21](https://www.youtube.com/watch?v=Xovf7vlPfOU&t=501) explicitly treats experienced founders' stories as inspiration, not universal instructions. His [November 2025 investor video at 7:35](https://www.youtube.com/watch?v=Kk52hBf2LE8&t=455) preserves retention as an exception to his criticism of excessive metrics. Keep both qualifications when representing his philosophy.
 
+## Values visible under disagreement
+
+The [July 19, 2025 CFO story](../raw/sources/2026-09-08-linkedin-rb2b/posts/2025-07-19-7352407363783438336.md) credits a colleague for questioning the cost and unclear return of founder content. Adam frames that challenge as part of her job, even while defending his own conviction. **Proposed value:** strong judgment includes room for a team to challenge the founder. His later attribution of company growth to content is a self-report, not proof that every expensive creative bet deserves more runway.
+
+The [February 6, 2024 operating update](../raw/sources/2026-09-08-linkedin-rb2b/posts/2024-02-06-7160748181696188416.md) accepts that better customer targeting had not fixed all churn. **Proposed value:** revise the explanation when the operating evidence disappoints. Preserve the distinction between the problem he observed and his explanation of its cause.
+
+The older archive also prevents an overly tidy story of lifelong simplicity: [May 2023](../raw/sources/2026-09-08-linkedin-rb2b/posts/2023-05-24-7067218283166367744.md) explicitly favors playing bigger. Later lean-company views reflect learning and changed priorities; see [[identity/vision]].
+
 ## Related Pages
 
 - [[identity/mission]]
@@ -52,6 +60,8 @@ His [February 2026 video at 8:21](https://www.youtube.com/watch?v=Xovf7vlPfOU&t=
 - [[strategy/learnings]]
 
 ## Source Notes
+
+The three older LinkedIn posts linked in “Values visible under disagreement” were read in full. Values are editorial interpretations of specific reported decisions, not a personality test or an approved list.
 
 The [web capture](../raw/sources/2026-09-08-web/manifest.md) records first-party public sources captured 2026-09-08. Values are interpretation; the linked statements and decisions from the web, LinkedIn and YouTube captures are evidence. This internal draft remains subject to author corrections. Public visibility does not establish approval for new first-person copy.
 

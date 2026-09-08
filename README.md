@@ -22,9 +22,11 @@ index.md          map of the context pages
 log.md            record of what was added or changed
 ```
 
-The source collection contains 914 Adam-profile LinkedIn records (911 nonempty post bodies) and the latest 100 public YouTube uploads with timestamped transcripts. The original 200-post sample came through Oxygen's managed scraper; the [RB2B archive supplement](raw/sources/2026-09-08-linkedin-rb2b/manifest.md) adds 714 records from the existing Oxygen dev table, extending coverage to February 2023. Three table records have no body text and remain explicitly flagged. Dated web sources supplement the archive. The [context index](index.md) leads to synthesized identity, proof, values, audience, voice and proposed pillars; the raw material stays under `raw/sources/` for retrieval when needed. Existing LinkedIn synthesis retains its documented 200-post scope. The [YouTube library](strategy/youtube-library.md) links the detailed video notes and reports their coverage.
+The source collection contains 914 Adam-profile LinkedIn records (911 nonempty post bodies) and the latest 100 public YouTube uploads with timestamped transcripts. The original 200-post sample came through Oxygen's managed scraper; the [RB2B archive supplement](raw/sources/2026-09-08-linkedin-rb2b/manifest.md) adds 714 records from the existing Oxygen dev table, extending coverage to February 2023. Three table records have no body text and remain explicitly flagged. Dated web sources supplement the archive. The [context index](index.md) leads to synthesized identity, proof, values, audience, voice and proposed pillars; the raw material stays under `raw/sources/` for retrieval when needed. The original 200-post synthesis is now extended by a focused review of older posts, recorded in [the context review](research/context-expansion-review.md). The [YouTube library](strategy/youtube-library.md) links the detailed video notes and reports their coverage.
 
 The existing Notion connection is unchanged. This collection task does not create, publish or schedule content there. The [MoltSets graphics system](brand/BRAND.md) is documented separately under its own brief.
+
+Start with the [ideal follower](audience/ideal-follower.md), [reader pains](audience/pains-and-questions.md), [positioning](identity/positioning.md) and [editorial direction](strategy/editorial-direction.md) when preparing a brief.
 
 ## Use the second brain
 

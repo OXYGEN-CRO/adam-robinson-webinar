@@ -1,11 +1,13 @@
 # Adam Robinson — context index
 
-A source-backed working wiki of Adam Robinson’s public writing and speech, captured on 2026-09-08. The archive contains **914 Adam-profile LinkedIn records (911 nonempty bodies)** and **100 recent YouTube videos with transcripts**. The original LinkedIn synthesis covers its documented 200-post sample; the additional archive is available for retrieval. Context pages are draft synthesis, not author-approved public copy.
+A source-backed working wiki of Adam Robinson’s public writing and speech, captured on 2026-09-08. The archive contains **914 Adam-profile LinkedIn records (911 nonempty bodies)** and **100 recent YouTube videos with transcripts**. Context combines the original 200-post LinkedIn sample with a focused review of older posts; the full archive is available for retrieval. Context pages are draft synthesis, not author-approved public copy.
 
 Full-transcript research notes are available for **100/100** selected videos. Read [[strategy/source-policy]] for recency, attribution and metric rules.
 
 ## Start here
 
+- [[audience/ideal-follower|Ideal follower and reader decisions]]
+- [[strategy/editorial-direction|Practical editorial direction]]
 - [[identity/backstory|Backstory and chronology]]
 - [[identity/proof|Dated proof ledger and conflicting claims]]
 - [[identity/values|Values and decisions]]
@@ -32,10 +34,13 @@ Full-transcript research notes are available for **100/100** selected videos. Re
 ### audience
 
 - [[audience/ideal-follower|Ideal follower]]
+- [[audience/language-and-objections|Reader language and objections]]
+- [[audience/pains-and-questions|Reader pains and questions]]
 
 ### strategy
 
 - [[strategy/ai-support-playbook|AI support playbook]]
+- [[strategy/editorial-direction|Editorial direction]]
 - [[strategy/financing-decisions|Financing decisions]]
 - [[strategy/funnel/bottom-of-funnel|Bottom of funnel]]
 - [[strategy/funnel/middle-of-funnel|Middle of funnel]]
@@ -82,6 +87,7 @@ Raw material is retained for search and on-demand retrieval; it does not need to
 - [[raw/sources/2026-09-08-brief/manifest|User brief and proposed pillar provenance]]
 - [[raw/sources/2026-09-08-linkedin/manifest|Oxygen LinkedIn capture and pagination provenance]]
 - [[raw/sources/2026-09-08-linkedin-rb2b/manifest|Expanded RB2B LinkedIn archive — 914 Adam records]]
+- [[raw/sources/2026-09-08-context-expansion/manifest|Context expansion instruction and scope]]
 - [[raw/sources/2026-09-08-youtube/manifest|YouTube capture and selection boundary]]
 - [[raw/sources/2026-09-08-web/manifest|Supplementary public web sources]]
 

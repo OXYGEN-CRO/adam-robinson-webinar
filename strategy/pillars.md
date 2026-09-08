@@ -31,6 +31,12 @@ Late 2025/early 2026 content centered on RB2B identity, churn and AI support. By
 
 AI is a current thread across GTM and SaaS building, not a simple pro-AI identity. He promotes company automation/agent APIs while criticizing AI comments and dependence onAI for personal judgment. Family and life design explain the payoff from bootstrapping. [P25] [P27] [P46] [P64] [P91]
 
+## Applying the expanded archive
+
+The focused older-post review strengthens the stage distinctions without requiring new pillar names. Early founders need customer and offer clarity; plateaued founders need a diagnosis of differentiation, economics and retention. Historical build-in-public posts also expose changes of mind that a recent-only sample can miss. See [[audience/ideal-follower]] and [[strategy/editorial-direction]] for the reader brief and sixteen proposed teaching angles.
+
+The archive now contains 914 Adam records, but this does not mean every older body has received a full semantic review. [[research/context-expansion-review]] records the selected historical sources used for this extension. Preserve the original topic lists below their existing pillar pages; the new angles are priorities to develop, not a claim that Adam adopted a replacement taxonomy.
+
 ## Funnel fit
 
 Choose one primary job: introduce a perspective/problem, earn trust through a worked method, or offer a relevant next step. Historical routes include event registration, course/video viewing, requested resources, waitlist and product signup. No current approved cadence, target or allocation is established. [P44] [P103] [P188]

@@ -4,7 +4,7 @@ status: draft
 owner: adam
 created: 2026-09-07
 updated: 2026-09-08
-sources: [raw/sources/2026-09-08-web/sources.json, raw/sources/2026-09-08-linkedin/posts.normalized.json, raw/sources/2026-09-08-youtube/selected-100.json, research/2026-09-08-adam-web-context.md, research/youtube-synthesis-c.md, research/audit-documentary-and-early-support.md]
+sources: [raw/sources/2026-09-08-web/sources.json, raw/sources/2026-09-08-linkedin/posts.normalized.json, raw/sources/2026-09-08-youtube/selected-100.json, research/2026-09-08-adam-web-context.md, research/youtube-synthesis-c.md, research/audit-documentary-and-early-support.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2023-07-28-7090775676135362561.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2023-11-11-7129220348616593409.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2024-01-11-7151330853724258306.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2024-02-06-7160748181696188416.md]
 tags: [backstory, first-party, chronology]
 ---
 
@@ -81,6 +81,14 @@ An earlier engineering story illustrates the distinction between doing technical
 
 His December 31, 2025 retrospective explicitly corrects his own three-people-and-AI storyline by crediting the full 33-person organization. Tate, Diana, Michael, Keleigh, Robb and the data/customer teams make the model work. In April 2026 he credits Jonathan Shapiro's coaching and EOS with clearer expectations, more stable priorities and better management. June hiring of Ebru and Cecilia demonstrates that staying lean still allows adding valuable people. The story is earned delegation and good operating design, not a literal company without human work. [P154] [P84] [P51]
 
+## Contemporaneous LinkedIn anchors added from RB2B
+
+The older posts add dated evidence alongside later recollections. In [July 2023](../raw/sources/2026-09-08-linkedin-rb2b/posts/2023-07-28-7090775676135362561.md), Adam describes large Shopify stores as Retention.com's ideal customer and presents rapid team expansion as part of going faster when the time is right. In [February 2024](../raw/sources/2026-09-08-linkedin-rb2b/posts/2024-02-06-7160748181696188416.md), he describes overselling, a sales-leadership departure, a smaller sales organization, reduced expectations and churn that remained difficult despite tighter targeting. These support a change in operating judgment; neither post settles every headcount discrepancy in the later retellings.
+
+The [January 11, 2024 RB2B playbook](../raw/sources/2026-09-08-linkedin-rb2b/posts/2024-01-11-7151330853724258306.md) is explicitly prelaunch: a free offering, community, founder distribution and future feature gating are plans. It ends by admitting the approach may not work. Keep this prospective account distinct from later launch results and revised pricing.
+
+The [November 2023 Robly/GetEmails story](../raw/sources/2026-09-08-linkedin-rb2b/posts/2023-11-11-7129220348616593409.md) already explains why he shares business setbacks: he wished he could have heard from a founder going through the same thing. Its republication in later years does not make the underlying events newer or create independent corroboration.
+
 ## Public-use boundaries
 
 Publicly sourced stories are not automatically cleared for new first-person copy. Adam now directly reports a $10m sale; attribute that dated self-report and preserve the unresolved sale year rather than treating it as verified transaction evidence. Do not infer current family details from an old reusable bio; deeper family context and personal goals remain unconfirmed. Keep financial claims in [[identity/proof]].
@@ -100,6 +108,8 @@ The documentary contains another goal statement explicitly introduced as **April
 - [[identity/source-conflicts]]
 
 ## Source Notes
+
+The older RB2B-archive LinkedIn posts in the chronology section above were reviewed in full. Their publication dates establish when those accounts were posted; retrospective events and future plans retain their separate time references.
 
 W01–W22 resolve to authors, dates, URLs and limited exact excerpts in [the dated web capture](../raw/sources/2026-09-08-web/sources.json). First-person accounts and corporate descriptions are first-party assertions. Dated articles outrank undated biographies for current circumstances. Complete primary LinkedIn posts behind the stories above and the cited YouTube passages were inspected. No private interview or author approval has been supplied. [[identity/source-conflicts]] preserves competing dates and scopes.
 

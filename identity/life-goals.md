@@ -4,7 +4,7 @@ status: draft
 owner: adam
 created: 2026-09-07
 updated: 2026-09-08
-sources: [raw/sources/2026-09-08-linkedin/posts/2026-08-20-7496214966937530368.md, raw/sources/2026-09-08-linkedin/posts/2026-06-25-7475952078696259585.md, raw/sources/2026-09-08-youtube/videos/y4R4zyOv2FE/y4R4zyOv2FE.md]
+sources: [raw/sources/2026-09-08-linkedin/posts/2026-08-20-7496214966937530368.md, raw/sources/2026-09-08-linkedin/posts/2026-06-25-7475952078696259585.md, raw/sources/2026-09-08-youtube/videos/y4R4zyOv2FE/y4R4zyOv2FE.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2024-04-06-7182478567140737026.md]
 tags: [life-goals, autonomy, sustainability]
 ---
 
@@ -32,6 +32,12 @@ Source: [March 6 recording, 00:07–00:33 and 08:17–09:21](../raw/sources/2026
 
 His described operating design batches internal meetings on Monday, content on Tuesday and customer conversations on Wednesday; Thursday and Friday leave space for product work, experiments and learning from peers. He names executive coaching and a monthly peer forum as part of his practice. The lesson is to protect attention and direct customer contact; this is not a prescribed publishing calendar for this workspace. [Source: 00:43–08:03](../raw/sources/2026-09-08-youtube/videos/y4R4zyOv2FE/y4R4zyOv2FE.md).
 
+## Support makes the operating design possible
+
+His [April 6, 2024 post](../raw/sources/2026-09-08-linkedin-rb2b/posts/2024-04-06-7182478567140737026.md) describes the emotional burden of the CEO role and the value he found in a therapist, a mentor/coach and a peer group. It adds a useful boundary to the spacious-calendar story: independence does not mean facing every decision alone. Record this as his experience, without inferring a diagnosis, prescribing treatment or treating family anecdotes as reusable copy.
+
+For editorial planning, the life-design theme can ask what work he wants to keep doing, what should be delegated, and what support makes that sustainable. The answer should come from a dated account or a new brief, not from a fictional ideal week.
+
 ## Unknowns
 
 No comprehensive personal financial target, retirement plan or permission to reuse family stories was supplied. Publicly mentioned family context is research material; new public copy still requires author review.
@@ -44,6 +50,8 @@ No comprehensive personal financial target, retirement plan or permission to reu
 - [[strategy/source-policy]]
 
 ## Source Notes
+
+- [[raw/sources/2026-09-08-linkedin-rb2b/posts/2024-04-06-7182478567140737026]] — dated first-person account of support and leadership development; full post reviewed.
 
 - [[raw/sources/2026-09-08-linkedin/posts/2026-08-20-7496214966937530368]] — most recent detailed weekly operating account in this synthesis.
 - [[raw/sources/2026-09-08-linkedin/posts/2026-06-25-7475952078696259585]] — explicit creative motivation.

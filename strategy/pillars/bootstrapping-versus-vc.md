@@ -4,7 +4,7 @@ status: draft
 owner: adam
 created: 2026-09-08
 updated: 2026-09-08
-sources: [raw/sources/2026-09-08-linkedin/posts.normalized.json]
+sources: [raw/sources/2026-09-08-linkedin/posts.normalized.json, raw/sources/2026-09-08-linkedin-rb2b/posts/2023-05-24-7067218283166367744.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2024-03-16-7174868039996174336.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2024-05-13-7195882240424259586.md]
 tags: [pillar, bootstrapping, vc, founder-freedom]
 ---
 
@@ -24,6 +24,14 @@ Help founders understand the life and ownership consequences of financing, espec
 | When can capital make sense? | Physical/retail/lending/infrastructure needs, network effects, sticky product/large TAM and post-liquidity ambitions. Dec 22 [P157]. | Middle: preserve exceptions. |
 | What should a first-time founder do first? | Master a skill, try something simpler, gain evidence, delegate gradually, preserve runway. Sep 1 [P5]; Jan 16 [P143]; Dec 5 [P167]. | Middle: practical sequencing. |
 | How do I resist social pressure? | Validation, hypergrowth comparison and bigger ambition; patience and compounding. Jan 4 [P152]; Nov 11 [P185]. | Top: acknowledge the emotional difficulty. |
+
+## Earlier context and reader stages
+
+The [May 2024 funding post](../../raw/sources/2026-09-08-linkedin-rb2b/posts/2024-05-13-7195882240424259586.md) addresses a concrete beginner objection: wanting to bootstrap without knowing how to sustain the learning period. Adam discusses keeping income, services and savings, and warns that available savings can disappear into a first startup. Treat these as his dated views and experience, not personalized financing advice or verification of the third-party founder histories he cites.
+
+The [March 2024 brand playbook](../../raw/sources/2026-09-08-linkedin-rb2b/posts/2024-03-16-7174868039996174336.md) explicitly funds RB2B with cash from another business. That is a critical starting condition when discussing a lean second venture with a first-time founder.
+
+His [May 2023 preference for playing bigger](../../raw/sources/2026-09-08-linkedin-rb2b/posts/2023-05-24-7067218283166367744.md) should remain part of the story. The useful thread is the changing relationship between ambition and the life/company it produces, not a claim that he always preferred the same scale.
 
 ## Nuance
 

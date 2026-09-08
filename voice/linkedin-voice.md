@@ -4,7 +4,7 @@ status: draft
 owner: adam
 created: 2026-09-07
 updated: 2026-09-08
-sources: [raw/sources/2026-09-08-linkedin/posts.normalized.json, raw/sources/2026-09-08-youtube/videos/eUzqVJpZPP4/eUzqVJpZPP4.md, raw/sources/2026-09-08-youtube/videos/yMNyVxr4IAo/yMNyVxr4IAo.md]
+sources: [raw/sources/2026-09-08-linkedin/posts.normalized.json, raw/sources/2026-09-08-youtube/videos/eUzqVJpZPP4/eUzqVJpZPP4.md, raw/sources/2026-09-08-youtube/videos/yMNyVxr4IAo/yMNyVxr4IAo.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2023-11-11-7129220348616593409.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2024-03-28-7179219737141231617.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2025-01-07-7282507888328167424.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2025-05-31-7334641032967454724.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2025-07-19-7352407363783438336.md]
 tags: [voice, linkedin, source-backed]
 ---
 
@@ -15,6 +15,17 @@ tags: [voice, linkedin, source-backed]
 This guide reflects all 200 selected LinkedIn posts, dated 2025-10-20 through 2026-09-07. It is an observed writing guide, not author approval. Profile authorship does not prove an unassisted writing process. Guest stories and metrics remain attributed to the guest; P 61 explicitly republishes Robb Clarke's words.
 
 On December 1 Adam said he no longer used a ghostwriter and credited Alec Paul as coach/strategist/producer. On November 3 he credited original ghostwriter Tommy Clark for frameworks and the first 20,000 followers. His YouTube workflow uses Samu Kovács's scripts followed by Adam's light edits and recording. Keep channel and time distinct. [P171] [P192] [P195]
+
+## Historical samples added to calibration
+
+The expanded archive adds selected complete posts from 2023–2025 to the original recent sample; this is a focused qualitative extension, not a new statistical analysis of all 911 available bodies. [[research/context-expansion-review]] records the reviewed sources.
+
+- **Useful contradiction:** the [May 2025 stalled-founder post](../raw/sources/2026-09-08-linkedin-rb2b/posts/2025-05-31-7334641032967454724.md) gives strong advice while admitting Adam himself is stuck. Preserve this tension instead of making the narrator all-knowing.
+- **A story earns its audience promise:** the [November 2023 origin story](../raw/sources/2026-09-08-linkedin-rb2b/posts/2023-11-11-7129220348616593409.md) moves from desperation through discovery to why he writes for other founders. The emotional close follows the story; it is not a motivational line pasted onto unrelated advice.
+- **Specificity makes a list useful:** the [January 2025 post](../raw/sources/2026-09-08-linkedin-rb2b/posts/2025-01-07-7282507888328167424.md) names recognizable mistakes and requests rather than abstract traits. Preserve the concrete problem while avoiding unsupported prevalence claims such as its “99%” framing.
+- **Conviction can coexist with respect:** the [July 2025 CFO story](../raw/sources/2026-09-08-linkedin-rb2b/posts/2025-07-19-7352407363783438336.md) begins with an uncomfortable accusation and ends by respecting the colleague's challenge. Do not turn every disagreement into a simplistic villain story.
+
+His [March 2024 audience strategy](../raw/sources/2026-09-08-linkedin-rb2b/posts/2024-03-28-7179219737141231617.md) explicitly values a strong hook, lines that sustain attention and an emotionally satisfying ending. That supports craft, not fake urgency, manufactured dialogue or guaranteed distribution.
 
 ## Core voice
 

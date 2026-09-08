@@ -1,8 +1,8 @@
 {
-  "audited_at": "2026-09-08T12:22:18.642655+00:00",
+  "audited_at": "2026-09-08T12:54:29.189133+00:00",
   "helper_sha256": "099503d068ba9f0a9398b8d74c3867b86490849baa49c16f7361a3c650d5ca50",
   "input_sha256": {
-    "research/youtube-synthesis-audit.json": "d4c5c89c4de9ed9eebea195ba765214ef5dd363420ecf1d039ef365e42f484c2",
+    "research/youtube-synthesis-audit.json": "90f9ccd9ca357ccbb7c60d296d5541a692074d5d8d22156350914a34c71b6cc9",
     "research/youtube-coverage-reviews.json": "e7501c659493aa8eef94ec1534b37a93926277664a4f71ed8418c6d3251b1c11",
     "raw/sources/2026-09-08-youtube/selected-100.json": "6ac44cc9a19e0ec99b4f81b556c5dc3525d277a37f40df7ef8cc95bc1c3e20ac",
     "raw/sources/2026-09-08-youtube/videos/D-8umeDdYP0/D-8umeDdYP0.md": "5f3410502c2fe7d38d6941b87dbaaebe45ecd8ff2e47c48687d7ecb673d3c685",
@@ -148,7 +148,7 @@
     }
   ],
   "automatic_snapshot": {
-    "audited_at": "2026-09-08T12:22:10.370905+00:00",
+    "audited_at": "2026-09-08T12:53:58.829211+00:00",
     "status": "manual_review_required",
     "selected_count": 100,
     "extraction_count": 100,

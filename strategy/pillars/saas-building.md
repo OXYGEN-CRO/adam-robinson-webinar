@@ -4,7 +4,7 @@ status: draft
 owner: adam
 created: 2026-09-08
 updated: 2026-09-08
-sources: [raw/sources/2026-09-08-linkedin/posts.normalized.json]
+sources: [raw/sources/2026-09-08-linkedin/posts.normalized.json, raw/sources/2026-09-08-linkedin-rb2b/posts/2024-02-06-7160748181696188416.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2025-01-07-7282507888328167424.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2025-05-31-7334641032967454724.md]
 tags: [pillar, saas-building, product, lean-operations]
 ---
 
@@ -41,6 +41,12 @@ The recovered January28 continuation adds a manual-MVP example: RB2B emailed spr
 - July 31 proposes churn causes without settling one. The $79 cohort and OEM cannibalization remain hypotheses. [P23]
 - He says churn matters after $5m [P147], yet diagnoses a $2.5–3m PMF problem through churn [P155]. Preserve context-dependent heuristics, not a universal threshold.
 - “100% valid” data promises conflict with later poor-quality/delayed-rollout accounts. Assess quality through current evidence, not promotional confidence. [P45] [P47] [P37] [P20]
+
+## Diagnose the stage before prescribing the move
+
+The [January 2025 post](../../raw/sources/2026-09-08-linkedin-rb2b/posts/2025-01-07-7282507888328167424.md) emphasizes manual customer discovery, clear positioning and a narrow initial use case. The [May 2025 post](../../raw/sources/2026-09-08-linkedin-rb2b/posts/2025-05-31-7334641032967454724.md) addresses the later plateau: differentiation, messaging, customer focus, economics, word-of-mouth and retention. Their ARR bands define the situations Adam discusses; they are not universal stage gates.
+
+For a product/operations brief, identify which constraint the evidence actually supports. The [February 2024 Retention update](../../raw/sources/2026-09-08-linkedin-rb2b/posts/2024-02-06-7160748181696188416.md) shows that more focused selling can improve outcomes while the category's retention problem remains. More distribution, a narrower ICP and a better product are related interventions, not interchangeable explanations.
 
 ## Related Pages
 

@@ -4,7 +4,7 @@ status: draft
 owner: adam
 created: 2026-09-07
 updated: 2026-09-08
-sources: [raw/sources/2026-09-08-linkedin/posts.normalized.json, raw/sources/2026-09-08-youtube/videos/VhaxdYjgKyY/VhaxdYjgKyY.md]
+sources: [raw/sources/2026-09-08-linkedin/posts.normalized.json, raw/sources/2026-09-08-youtube/videos/VhaxdYjgKyY/VhaxdYjgKyY.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2023-05-24-7067218283166367744.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2023-09-12-7107460239590907904.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2024-02-06-7160748181696188416.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2024-10-01-7246978753430466560.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2025-05-31-7334641032967454724.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2025-07-19-7352407363783438336.md]
 tags: [voice, formats, source-backed]
 ---
 
@@ -28,6 +28,17 @@ These formats recur in the 200-post sample. They are not approved templates. A f
 | Guest playbook/invitation | Bring readers to deeper instruction | Guest outcome→audience pain→agenda→link. June 28 [P44]; Aug 31 [P6]. | Guest attribution and confirmed event details. |
 | Resource/course | Convert interest into learning | Lesson→contents→access. Mar 5 [P103]; Nov 8 [P188]. | Real artifact, valid destination, authorized follow-up. |
 | Team appreciation | Credit the operating reality | Gratitude→specific contribution→shared ambition. Dec 31 [P154]; June 16 [P51]. | Correct roles/names and source permissions. |
+
+## Select a format by the reader's question
+
+| Question the brief must answer | Suitable format | Older evidence and limit |
+| --- | --- | --- |
+| Why are we stuck despite traction? | Numbered diagnosis with a personal admission | [May 2025 plateau post](../raw/sources/2026-09-08-linkedin-rb2b/posts/2025-05-31-7334641032967454724.md); the diagnoses are Adam's observations, not a prevalence study. |
+| What did a disappointing month change? | Operating update with revised hypotheses | [February 2024 update](../raw/sources/2026-09-08-linkedin-rb2b/posts/2024-02-06-7160748181696188416.md); preserve dates and financial scope. |
+| How should a founder handle justified pushback? | Reported conversation and changed interpretation | [July 2025 CFO story](../raw/sources/2026-09-08-linkedin-rb2b/posts/2025-07-19-7352407363783438336.md); quote only the reported source or use a clearly labeled paraphrase. |
+| How did Adam's ambition change? | Dated before/after view | [May 2023 lifestyle-business reflection](../raw/sources/2026-09-08-linkedin-rb2b/posts/2023-05-24-7067218283166367744.md) alongside [[identity/vision]]; do not erase the earlier view. |
+
+The [September 2023](../raw/sources/2026-09-08-linkedin-rb2b/posts/2023-09-12-7107460239590907904.md) and [October 2024](../raw/sources/2026-09-08-linkedin-rb2b/posts/2024-10-01-7246978753430466560.md) LinkedIn lessons reuse a substantial common structure and passages while changing milestones and adding video guidance. This is a concrete example of reuse in the archive; it is not independent corroboration of the repeated performance claims. A new brief should use the current relevant lesson and its proper source date.
 
 ## Cross-platform adaptation
 

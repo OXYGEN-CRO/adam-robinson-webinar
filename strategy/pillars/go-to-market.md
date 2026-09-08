@@ -4,7 +4,7 @@ status: draft
 owner: adam
 created: 2026-09-08
 updated: 2026-09-08
-sources: [raw/sources/2026-09-08-linkedin/posts.normalized.json]
+sources: [raw/sources/2026-09-08-linkedin/posts.normalized.json, raw/sources/2026-09-08-linkedin-rb2b/posts/2024-03-28-7179219737141231617.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2024-06-11-7206396119432482817.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2025-01-07-7282507888328167424.md]
 tags: [pillar, go-to-market, distribution]
 ---
 
@@ -41,6 +41,12 @@ The January28 continuation names his “Magic Triangle”: content creates aware
 Observed routes include event registration, course/video, requested deck, waitlist and product signup. Match the destination to one post's job. A free founder course reaches people beyond the contact-data buyer. [P18] [P44] [P103] [P188] [P189]
 
 Measure attention, qualified people, registrations, activation and revenue separately. The source does not establish causal contribution: cold-email share and “LinkedIn alone” may describe the same funnel. Do not add them or infer revenue from views. [P29] [P171] [P194]
+
+## Audience quality before channel volume
+
+In [March 2024](../../raw/sources/2026-09-08-linkedin-rb2b/posts/2024-03-28-7179219737141231617.md), Adam contrasts generic follower growth with content intended for founders, sales and marketing readers, direct participation and useful commercial outcomes. His [January 2025 diagnosis](../../raw/sources/2026-09-08-linkedin-rb2b/posts/2025-01-07-7282507888328167424.md) adds a stage boundary: a founder without customer/offer clarity is not necessarily ready to copy the acquisition channel.
+
+These sources support two practical questions for a GTM brief: who should care about this, and what makes the method appropriate at their stage? His [June 2024 account of hard-to-isolate content effects](../../raw/sources/2026-09-08-linkedin-rb2b/posts/2024-06-11-7206396119432482817.md) prevents reducing that judgment to a per-post revenue score. See [[strategy/editorial-direction]] for proposed angles.
 
 ## Related Pages
 

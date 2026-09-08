@@ -4,7 +4,7 @@ status: draft
 owner: adam
 created: 2026-09-07
 updated: 2026-09-08
-sources: [raw/sources/2026-09-08-linkedin/posts/2026-08-25-7498049303853191168.md, raw/sources/2026-09-08-linkedin/posts/2026-06-28-7477048608886812672.md, raw/sources/2026-09-08-youtube/videos/eUzqVJpZPP4/eUzqVJpZPP4.md]
+sources: [raw/sources/2026-09-08-linkedin/posts/2026-08-25-7498049303853191168.md, raw/sources/2026-09-08-linkedin/posts/2026-06-28-7477048608886812672.md, raw/sources/2026-09-08-youtube/videos/eUzqVJpZPP4/eUzqVJpZPP4.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2024-10-31-7257847801307439107.md]
 tags: [funnel, offers, conversion]
 ---
 
@@ -23,6 +23,12 @@ tags: [funnel, offers, conversion]
 | MoltSets API adoption or flat-file inquiry in August 25 plan | Programmatic contact-data access, or data to power another application | Product-led and sales-led routes serve different users; the plan's pricing and future-state claims are dated. |
 
 Sources: [April tutorial, 03:44 and 06:50](../../raw/sources/2026-09-08-youtube/videos/eUzqVJpZPP4/eUzqVJpZPP4.md), [workshop](../../raw/sources/2026-09-08-linkedin/posts/2026-06-28-7477048608886812672.md), [MoltSets plan](../../raw/sources/2026-09-08-linkedin/posts/2026-08-25-7498049303853191168.md).
+
+## Qualification before a product bridge
+
+The reader's problem should match the proposed next step. Visitor-identification content should explain the visitor context the reader needs, how it would be used and what a useful record contains. Contact-data/API content should establish the intended workflow and the team's ability to use the output. These are proposed qualification questions, not a claim about current product eligibility or a new lead-scoring system.
+
+The [October 2024 visitor-ID comparison](../../raw/sources/2026-09-08-linkedin-rb2b/posts/2024-10-31-7257847801307439107.md) focuses on relevant complete records rather than raw match volume. Its prices, coverage and competitive results are historical self-reports and should not be copied into a new comparison. The durable editorial lesson is to define useful value before choosing a product CTA.
 
 ## Conversion and attribution
 

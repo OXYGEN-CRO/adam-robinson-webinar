@@ -4,7 +4,7 @@ status: draft
 owner: adam
 created: 2026-09-07
 updated: 2026-09-08
-sources: [raw/sources/2026-09-08-web/sources.json, raw/sources/2026-09-08-linkedin/posts.normalized.json, raw/sources/2026-09-08-youtube/selected-100.json, research/2026-09-08-adam-web-context.md, research/youtube-synthesis-c.md]
+sources: [raw/sources/2026-09-08-web/sources.json, raw/sources/2026-09-08-linkedin/posts.normalized.json, raw/sources/2026-09-08-youtube/selected-100.json, research/2026-09-08-adam-web-context.md, research/youtube-synthesis-c.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2023-08-12-7096229582869041152.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2024-03-28-7179219737141231617.md]
 tags: [proof, metrics, recency, self-reported]
 ---
 
@@ -79,6 +79,15 @@ These figures explain the development of Adam's playbook; they are not current b
 | $100m and beyond | Newsletter footer ambition, not current ARR. | [W22](https://newsletter.rb2b.com/authors/adam-robinson) |
 | Robly $10m exit | Adam directly reports $10m and a 2020 sale in his March 31, 2026 video. A September 2024 interview dates the sale to 2021 and withholds price. Nondisclosure is not a different price; the year conflict and lack of independent transaction evidence remain. | [March 31 video, 01:38–01:50](../raw/sources/2026-09-08-youtube/videos/F-WwDP1d-pM/F-WwDP1d-pM.md); [W17](https://founderpath.com/resources/adam-robinson-retentioncom-keynote); [W19](https://www.sramanamitra.com/2024/09/09/best-of-bootstrapping-bootstrapped-to-exit-and-bootstrapped-again-and-again/); [W01](https://theadamrobinson.com/about/) |
 | Retention above $25m ARR in February 2026 narration | Conflicts with August 18's $23m company-specific report. Preserve earlier narration as historical/uncertain scope; do not assume monotonic growth or replace newer evidence. | [Xovf7vlPfOU at 0:15](https://www.youtube.com/watch?v=Xovf7vlPfOU&t=15); [August LinkedIn](../raw/sources/2026-09-08-linkedin/posts/2026-08-18-7495491952788787200.md) |
+
+## Additional historical claims requiring careful wording
+
+| Claim | Source | Treatment |
+| --- | --- | --- |
+| 75% of his audience is in the ICP | [March 28, 2024 post](../raw/sources/2026-09-08-linkedin-rb2b/posts/2024-03-28-7179219737141231617.md) | Historical self-report; ICP definition, sample, denominator and underlying analytics absent. Not a present-day audience fact or targeting threshold. |
+| A goal of leading a billion-dollar software company | [August 12, 2023 post](../raw/sources/2026-09-08-linkedin-rb2b/posts/2023-08-12-7096229582869041152.md) | Historical aspiration; financial measure unspecified. Not achieved ARR, valuation or exit proceeds. Later direction is recorded in [[identity/vision]]. |
+
+The expanded archive's 914 Adam records and 911 nonempty bodies are independently checked capture counts. They do not verify the lifetime publishing counts or audience metrics quoted in Adam's posts. See [[raw/sources/2026-09-08-linkedin-rb2b/manifest]].
 
 ## Verification priorities
 

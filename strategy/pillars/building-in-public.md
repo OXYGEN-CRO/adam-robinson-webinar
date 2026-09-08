@@ -4,7 +4,7 @@ status: draft
 owner: adam
 created: 2026-09-08
 updated: 2026-09-08
-sources: [raw/sources/2026-09-08-linkedin/posts.normalized.json]
+sources: [raw/sources/2026-09-08-linkedin/posts.normalized.json, raw/sources/2026-09-08-linkedin-rb2b/posts/2024-02-06-7160748181696188416.md, raw/sources/2026-09-08-linkedin-rb2b/posts/2025-07-19-7352407363783438336.md]
 tags: [pillar, building-in-public]
 ---
 
@@ -24,6 +24,12 @@ Give founders a candid view of the choices, emotions and imperfect evidence behi
 | What does the CEO actually do? | Spacious calendar, content, coaching, delegation and family. Aug 20 [P14]; June 25 creative craft [P46]. | Top/middle: explain the desired life and choices. |
 | How did the business get unstuck? | Robly stagnation, newsletter failure, identity pivot, goal letter and years of uncertainty. May 31 [P59]; Dec 14 [P161]; Nov 29 [P172]. | Top for story; middle for a specific method. |
 | Who makes the lean story possible? | Team/contractors, documentation, shared labor and public gratitude. Dec 31 [P154]; Aug 25 [P10]. | Middle: substantiate the claim. |
+
+## Earlier examples to draw on
+
+The [February 2024 operating update](../../raw/sources/2026-09-08-linkedin-rb2b/posts/2024-02-06-7160748181696188416.md) supplies a complete uncomfortable update: weak growth, the limits of an earlier explanation, things improved, things still difficult and the next focus. Its usefulness comes from reasoning and accountability as well as emotion.
+
+The [July 2025 CFO story](../../raw/sources/2026-09-08-linkedin-rb2b/posts/2025-07-19-7352407363783438336.md) supplies a different angle: the founder's vision being challenged by someone doing their job. Use it to discuss conviction, cost and evidence together; the retrospective attribution to founder brand is not a controlled return calculation. [[strategy/editorial-direction]] turns these examples into proposed reader questions.
 
 ## Narrative progression
 
@@ -71,4 +77,3 @@ The name is user-proposed and also appears in Adam's stated three-pillar framewo
 [P172]: ../../raw/sources/2026-09-08-linkedin/posts/2025-11-29-7400611884409896960.md
 [P184]: ../../raw/sources/2026-09-08-linkedin/posts/2025-11-13-7394806870953209858.md
 [P185]: ../../raw/sources/2026-09-08-linkedin/posts/2025-11-11-7394074688689225729.md
-

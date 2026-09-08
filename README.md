@@ -22,7 +22,7 @@ index.md          map of the context pages
 log.md            record of what was added or changed
 ```
 
-The source collection contains 200 recent Adam-profile LinkedIn posts, collected through Oxygen's managed scraper, and the latest 100 public YouTube uploads with timestamped transcripts. Dated web sources supplement the archive. The [context index](index.md) leads to synthesized identity, proof, values, audience, voice and proposed pillars; the raw material stays under `raw/sources/` for retrieval when needed. The [YouTube library](strategy/youtube-library.md) links the detailed video notes and reports their coverage.
+The source collection contains 914 Adam-profile LinkedIn records (911 nonempty post bodies) and the latest 100 public YouTube uploads with timestamped transcripts. The original 200-post sample came through Oxygen's managed scraper; the [RB2B archive supplement](raw/sources/2026-09-08-linkedin-rb2b/manifest.md) adds 714 records from the existing Oxygen dev table, extending coverage to February 2023. Three table records have no body text and remain explicitly flagged. Dated web sources supplement the archive. The [context index](index.md) leads to synthesized identity, proof, values, audience, voice and proposed pillars; the raw material stays under `raw/sources/` for retrieval when needed. Existing LinkedIn synthesis retains its documented 200-post scope. The [YouTube library](strategy/youtube-library.md) links the detailed video notes and reports their coverage.
 
 The existing Notion connection is unchanged. This collection task does not create, publish or schedule content there. The [MoltSets graphics system](brand/BRAND.md) is documented separately under its own brief.
 
@@ -51,6 +51,8 @@ QMD is configured with an isolated index for this repository. Source text and sy
 Search includes the raw archive and reviewed wiki. Temporary `output/` exports and duplicate original `research/youtube-video-notes/` renders are excluded from QMD; those files remain available through `rg`. Reviewed video notes live in `strategy/video-notes/`, with explicit correction records that preserve the original model outputs.
 
 Verify capture integrity with `python3 scripts/verify_linkedin_context.py` and `python3 scripts/verify_youtube_context.py`. These recompute counts, identity, recency selection and text fidelity from the preserved raw objects.
+
+Verify the expanded LinkedIn archive with `python3 scripts/import_rb2b_linkedin.py --check`. This checks the complete exported table, attribution, exact overlapping bodies and every additional readable post. Browse the [archive by year](raw/sources/2026-09-08-linkedin-rb2b/index.md), or search it through the same repo-scoped QMD wrapper.
 
 [Structural provenance](templates/origin.md)
 

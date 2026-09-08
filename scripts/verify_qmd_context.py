@@ -6,7 +6,7 @@ title, FTS normalization, model-resolution and fingerprint functions. SQLite
 is opened with readonly/fileMustExist plus query_only, inside one read snapshot.
 No createStore, update, embed, doctor, migrations or configuration writes run.
 
-Required scope: the selected 200 LinkedIn posts, selected 100 YouTube
+Required scope: the combined 914 LinkedIn records, selected 100 YouTube
 transcripts, every Markdown page in the six context directories, index/log,
 and supplemental archived raw Markdown. Vendor/build/hidden/ignored files
 are excluded from recursive discovery; selected sources cannot be excluded.
@@ -32,7 +32,7 @@ import tempfile
 ROOT = Path(__file__).resolve().parents[1]
 WIKI_ROOTS = ('identity', 'audience', 'strategy', 'voice', 'brand', 'inspiration')
 EXCLUDED_PARTS = {'node_modules', 'vendor', 'dist', 'build', 'output', '__pycache__'}
-LI_MANIFEST = 'raw/sources/2026-09-08-linkedin/posts.normalized.json'
+LI_MANIFEST = 'raw/sources/2026-09-08-linkedin-rb2b/posts.normalized.json'
 YT_MANIFEST = 'raw/sources/2026-09-08-youtube/selected-100.json'
 
 # Deliberately use only pure exports from QMD. The CLI's model resolver persists
@@ -256,7 +256,7 @@ def digest(path):
 def discover_scope():
     documents = {}
     manifests = {}
-    for relative, category, count in [(LI_MANIFEST, 'linkedin_post', 200),
+    for relative, category, count in [(LI_MANIFEST, 'linkedin_post', 914),
                                        (YT_MANIFEST, 'youtube_transcript', 100)]:
         file = ROOT / relative
         rows = json.loads(file.read_text())
@@ -343,7 +343,7 @@ def main():
                        'qmd_package_root': str(package), 'node_runtime': str(node),
                        'wrapper_sha256': digest(wrapper), 'selection_manifest_sha256': manifests,
                        'excluded_ignored_markdown': ignored,
-                       'scope_policy': 'selected 200 posts + selected 100 transcripts + all six wiki roots + index/log + supplementary raw Markdown'})
+                       'scope_policy': 'combined 914 LinkedIn records (including 3 empty-body records) + selected 100 transcripts + all six wiki roots + index/log + supplementary raw Markdown'})
         payload = {'root': str(ROOT), 'package_root': str(package), 'index_name': index,
                    'database_path': str(database), 'documents': documents}
         result = subprocess.run([str(node), '--input-type=module', '-e', NODE_AUDIT], cwd=ROOT,

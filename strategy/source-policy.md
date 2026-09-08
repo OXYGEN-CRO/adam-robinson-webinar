@@ -4,7 +4,7 @@ status: draft
 owner: adam
 created: 2026-09-08
 updated: 2026-09-08
-sources: [raw/sources/2026-09-08-brief/brief.md, raw/sources/2026-09-08-brief/retrieval-preference.md, AGENTS.md]
+sources: [raw/sources/2026-09-08-brief/brief.md, raw/sources/2026-09-08-brief/retrieval-preference.md, raw/sources/2026-09-08-linkedin-rb2b/manifest.md, AGENTS.md]
 tags: [sources, provenance, recency, retrieval]
 ---
 
@@ -13,6 +13,8 @@ tags: [sources, provenance, recency, retrieval]
 ## Summary
 
 This wiki is a research synthesis of Adam Robinson's public material, prepared for the repository owner's brief. It is not an approved biography, campaign or voice guide. The brief requests 200 recent LinkedIn posts, the newest 100 YouTube videos with transcripts, supporting online context and a repository-specific QMD embedding index.
+
+A later request expanded the LinkedIn archive using the existing Oxygen dev / RB2B table. The combined corpus has 914 Adam-profile records from February 2023 through September 2026, including 911 nonempty bodies and three explicitly empty source records. All 979 table rows remain preserved; 65 other-author records are excluded from Adam's corpus. The full available table is captured, but completeness of Adam's lifetime LinkedIn history is unknown. Existing synthesized conclusions retain their documented 200-post evidence scope until the additional posts are reviewed.
 
 ## Reading claims
 
@@ -52,4 +54,5 @@ The raw archive is retained for on-demand retrieval. Do not load all post bodies
 
 - [[raw/sources/2026-09-08-brief/brief]] — user collection brief captured 2026-09-08; the four suggested pillars are the user's proposal, not Adam's approval.
 - [[raw/sources/2026-09-08-brief/retrieval-preference]] — preserve raw posts/transcripts and retrieve them on demand, without making the archive prominent in every context.
+- [[raw/sources/2026-09-08-linkedin-rb2b/manifest]] — expanded archive, attribution, unchanged overlaps and three missing bodies; includes the later collection instruction.
 - Repository `AGENTS.md` — rules for source preservation, unknowns, public-use boundaries and linked context.
